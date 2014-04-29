@@ -1,3 +1,6 @@
-name: Your New Jekyll Site
+name: Bytedeco
+description: Home to JavaCPP, JavaCV, and more
+url: http://bytedeco.org
 markdown: redcarpet
 pygments: true
+paginate: 10

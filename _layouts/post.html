@@ -2,8 +2,22 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
 
 <div class="post">
 {{ content }}
+</div>
+
+<h3>Comments</h3>
+{% assign element = page.path | replace: '_posts/', 'comments-' | remove: '.md' %}
+
+<div class="comments">
+<p>To add a comment, please <a href="https://github.com/bytedeco/bytedeco.github.io/blob/master/_data/{{ element }}.yml">edit the comments file</a> and send a pull request!</p>
+
+{% for c in site.data[element] %}
+  <div class="comment">
+    <div class="info"><a href="{{ c.url }}"> {{ c.name }}</a> on {{ c.date | date: '%B %d, %Y' }}</div>
+    <div class="content">{{ c.content | markdownify }}</div>
+  </div>
+{% endfor %}
 </div>
