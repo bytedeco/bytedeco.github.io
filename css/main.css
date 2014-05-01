@@ -33,6 +33,12 @@ a:hover   { color: #8ad; }
 /* Home
 /*
 /*****************************************************************************/
+.desc {
+  text-align: center;
+  font-size: 1.15em;
+  margin: 0 9% 1em 9%;
+}
+
 .posts {
   list-style-type: none;
   margin-bottom: 2em;

@@ -1,5 +1,5 @@
 name: Bytedeco
-description: Home to JavaCPP, JavaCV, and more
+description: <strong>Bytedeco</strong> aims to provide unique but powerful development tools, targeting mainly the Java platform. It is home most notably to <strong>JavaCPP</strong>, the missing bridge between Java and C++. See the <a href="https://github.com/bytedeco">repositories on GitHub</a> for more information about the projects.
 url: http://bytedeco.org
 markdown: redcarpet
 pygments: true
