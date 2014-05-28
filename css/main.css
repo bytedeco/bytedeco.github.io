@@ -148,7 +148,11 @@ a:hover   { color: #8ad; }
 }
 
 .post ul, .post ol {
-  margin-left: 1.35em;
+  margin: 1em 0 1em 1.35em;
+}
+
+.post ul ul, .post ol ol, .post ul ol, .post ol ul {
+  margin: 0.5em 0 0.5em 1.35em;
 }
 
 code {

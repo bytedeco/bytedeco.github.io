@@ -1,7 +1,6 @@
 ---
 layout: post
 title: First release at Bytedeco
-categories: release
 ---
 
 Welcome to Bytedeco! The new home of [JavaCPP](https://github.com/bytedeco/javacpp), [JavaCPP Presets](https://github.com/bytedeco/javacpp-presets), [JavaCV](https://github.com/bytedeco/javacv), [ProCamCalib](https://github.com/bytedeco/procamcalib), and [ProCamTracker](https://github.com/bytedeco/procamtracker), hosted at [GitHub](https://github.com). This post also coincides with their latest releases at version 0.8. Please click on the appropriate link to download and obtain more information about your favorite project. Further, all binary artifacts are now made available through the [Maven Central Repository](http://search.maven.org/#search|ga|1|bytedeco).
