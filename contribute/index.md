@@ -51,7 +51,7 @@ Since we need to deal with multiple platforms, having dedicated hardware for bui
 
 That said, providing builds of JavaCPP Presets for more platforms, most notably `linux-arm`, is already something you could contribute.
 
-In either case, please be sure to [contact me](mailto:contact at bytedeco.org) personally to discuss arrangements, thank you!
+In either case, please be sure to [contact us](mailto:contact at bytedeco.org) personally to discuss arrangements, thank you!
 
 <a id="submit-code"></a>
 Submit Code
@@ -67,11 +67,11 @@ Last but not least, contributions of new code to add features, provide samples, 
 
 ### Project Ideas
 
-Here is a list of coding tasks in no particular order that, as far as I know, would be most welcome by users:
+Here is a list of coding tasks in no particular order that, in all likelihood, would be most welcome by users:
 
  * Improving the `Parser` of JavaCPP
  * Replacing the Bash/Maven build combo of JavaCPP Presets by something better (Gradle?)
- * [Creating JavaCPP Presets](https://github.com/bytedeco/javacpp-presets/wiki/Create-New-Presets) for more C/C++ libraries (LLVM, OpenMesh, PCL, Tesseract, etc.)
+ * [Creating JavaCPP Presets](https://github.com/bytedeco/javacpp-presets/wiki/Create-New-Presets) for more C/C++ libraries (FFTW, GSL, LLVM, OpenNI, OpenMesh, PCL, Tesseract, etc.)
  * Expanding `FFmpegFrameGrabber` and `FFmpegFrameRecorder` in JavaCV to support more features of FFmpeg, such as metadata and filtering
  * Designing and building a framework for continuous integration that could provide builds for multiple platforms and test for regression
 
