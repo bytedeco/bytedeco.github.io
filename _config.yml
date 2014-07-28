@@ -3,5 +3,5 @@ description: <strong>Bytedeco</strong> aims to provide unique but powerful devel
 url: http://bytedeco.org
 markdown: redcarpet
 pygments: true
-paginate: 10
+paginate: 1
 permalink: /news/:year/:month/:day/:title/

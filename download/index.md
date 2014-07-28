@@ -11,114 +11,101 @@ All binary and source artifacts are made available through the <a href="http://s
 Archive Files
 -------------
 
- * JavaCPP 0.8 binary archive  [javacpp-0.8-bin.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/javacpp/0.8/javacpp-0.8-bin.zip) (192 KB)
- * JavaCPP 0.8 source archive  [javacpp-0.8-src.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/javacpp/0.8/javacpp-0.8-src.zip) (167 KB)
- * JavaCPP Presets 0.8 binary archive  [javacpp-presets-0.8-bin.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/javacpp-presets/0.8/javacpp-presets-0.8-bin.zip) (121 MB)
- * JavaCPP Presets 0.8 source archive  [javacpp-presets-0.8-src.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/javacpp-presets/0.8/javacpp-presets-0.8-src.zip) (708 KB)
- * JavaCV 0.8 binary archive  [javacv-0.8-bin.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/javacv/0.8/javacv-0.8-bin.zip) (121 MB)
- * JavaCV 0.8 source archive  [javacv-0.8-src.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/javacv/0.8/javacv-0.8-src.zip) (369 KB)
- * ProCamCalib 0.8 binary archive  [procamcalib-0.8-bin.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/procamcalib/0.8/procamcalib-0.8-bin.zip) (93 MB)
- * ProCamCalib 0.8 source archive  [procamcalib-0.8-src.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/procamcalib/0.8/procamcalib-0.8-src.zip) (49 KB)
- * ProCamTracker 0.8 binary archive  [procamtracker-0.8-bin.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/procamtracker/0.8/procamtracker-0.8-bin.zip) (94 MB)
- * ProCamTracker 0.8 source archive  [procamtracker-0.8-src.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/procamtracker/0.8/procamtracker-0.8-src.zip) (66 KB)
+ * JavaCPP 0.9 binary archive  [javacpp-0.9-bin.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/javacpp/0.9/javacpp-0.9-bin.zip) (195 KB)
+ * JavaCPP 0.9 source archive  [javacpp-0.9-src.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/javacpp/0.9/javacpp-0.9-src.zip) (171 KB)
+ * JavaCPP Presets 0.9 binary archive  [javacpp-presets-0.9-bin.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/javacpp-presets/0.9/javacpp-presets-0.9-bin.zip) (198 MB)
+ * JavaCPP Presets 0.9 source archive  [javacpp-presets-0.9-src.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/javacpp-presets/0.9/javacpp-presets-0.9-src.zip) (1156 KB)
+ * JavaCV 0.9 binary archive  [javacv-0.9-bin.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/javacv/0.9/javacv-0.9-bin.zip) (129 MB)
+ * JavaCV 0.9 source archive  [javacv-0.9-src.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/javacv/0.9/javacv-0.9-src.zip) (374 KB)
+ * ProCamCalib 0.9 binary archive  [procamcalib-0.9-bin.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/procamcalib/0.9/procamcalib-0.9-bin.zip) (98 MB)
+ * ProCamCalib 0.9 source archive  [procamcalib-0.9-src.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/procamcalib/0.9/procamcalib-0.9-src.zip) (49 KB)
+ * ProCamTracker 0.9 binary archive  [procamtracker-0.9-bin.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/procamtracker/0.9/procamtracker-0.9-bin.zip) (99 MB)
+ * ProCamTracker 0.9 source archive  [procamtracker-0.9-src.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/procamtracker/0.9/procamtracker-0.9-src.zip) (66 KB)
 
 
 <a id="maven-dependencies"></a>
 Maven Dependencies
 ------------------
 
-Here is a sample list of dependencies that you can use as base for your own `pom.xml` file. `${platform}` should be expanded to the name of your platform: `android-arm`, `android-x86`, `linux-x86`, `linux-x86_64`, `macosx-x86_64`, `windows-x86`, `windows-x86_64`, etc.
+Here is a sample list of dependencies that you can use as base for your own `pom.xml` file. Additionally, we need to either set the `platform.dependency` property to something like `android-arm`, or set the `platform.dependencies` one to `true` to get all the binaries for Linux, Mac OS X, and Windows.
 
 ```xml
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>javacpp</artifactId>
-      <version>0.8</version>
+      <version>0.9</version>
     </dependency>
 
     <dependency>
       <groupId>org.bytedeco.javacpp-presets</groupId>
       <artifactId>opencv</artifactId>
-      <version>2.4.9-0.8</version>
+      <version>2.4.9-0.9</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco.javacpp-presets</groupId>
       <artifactId>ffmpeg</artifactId>
-      <version>2.2.1-0.8</version>
+      <version>2.3-0.9</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco.javacpp-presets</groupId>
       <artifactId>flycapture</artifactId>
-      <version>1.7.17-0.8</version>
+      <version>2.6.3.4-0.9</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco.javacpp-presets</groupId>
       <artifactId>libdc1394</artifactId>
-      <version>2.2.2-0.8</version>
+      <version>2.2.2-0.9</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco.javacpp-presets</groupId>
       <artifactId>libfreenect</artifactId>
-      <version>0.4-0.8</version>
+      <version>0.5-0.9</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco.javacpp-presets</groupId>
       <artifactId>videoinput</artifactId>
-      <version>0.200-0.8</version>
+      <version>0.200-0.9</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco.javacpp-presets</groupId>
       <artifactId>artoolkitplus</artifactId>
-      <version>2.3.0-0.8</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.bytedeco.javacpp-presets</groupId>
-      <artifactId>opencv</artifactId>
-      <version>2.4.9-0.8</version>
-      <classifier>${platform}</classifier>
+      <version>2.3.0-0.9</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco.javacpp-presets</groupId>
-      <artifactId>ffmpeg</artifactId>
-      <version>2.2.1-0.8</version>
-      <classifier>${platform}</classifier>
+      <artifactId>flandmark</artifactId>
+      <version>1.07-0.9</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco.javacpp-presets</groupId>
-      <artifactId>flycapture</artifactId>
-      <version>1.7.17-0.8</version>
-      <classifier>${platform}</classifier>
+      <artifactId>fftw</artifactId>
+      <version>3.3.4-0.9</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco.javacpp-presets</groupId>
-      <artifactId>libdc1394</artifactId>
-      <version>2.2.2-0.8</version>
-      <classifier>${platform}</classifier>
+      <artifactId>gsl</artifactId>
+      <version>1.16-0.9</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco.javacpp-presets</groupId>
-      <artifactId>libfreenect</artifactId>
-      <version>0.4-0.8</version>
-      <classifier>${platform}</classifier>
+      <artifactId>llvm</artifactId>
+      <version>3.4.2-0.9</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco.javacpp-presets</groupId>
-      <artifactId>videoinput</artifactId>
-      <version>0.200-0.8</version>
-      <classifier>${platform}</classifier>
+      <artifactId>leptonica</artifactId>
+      <version>1.71-0.9</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco.javacpp-presets</groupId>
-      <artifactId>artoolkitplus</artifactId>
-      <version>2.3.0-0.8</version>
-      <classifier>${platform}</classifier>
+      <artifactId>tesseract</artifactId>
+      <version>3.03-rc1-0.9</version>
     </dependency>
 
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>javacv</artifactId>
-      <version>0.8</version>
+      <version>0.9</version>
     </dependency>
 ```
 
