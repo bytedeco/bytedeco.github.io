@@ -35,6 +35,12 @@ What is on your TODO list ?
 * More presets (yet to enumerate)
 * Working through upper limits of the parser, as we encounter them.
 
+What about Thread-safety and re-entrant aspects of the presets?
+---------------------------------------------------------------
+
+At this stage, we are not able to guarantee that presets will function as you would hope in a multithreaded way. We're also unable to state that presets are perfectly reentrant. It would be great to set up test harnesses, to somehow indicate (if not prove) that usage characteriscs are what we expect, but we're somewhat overstretched as it is.
+
+
 Do you offer commercial support?
 --------------------------------
 
