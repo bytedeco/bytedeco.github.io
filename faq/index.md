@@ -26,6 +26,15 @@ Is the license business friendly?
 
 Yes, the core of the software is licensed under the [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) with [Classpath exception](http://www.gnu.org/software/classpath/license.html), which is similar in spirit to the LGPL, but with less restrictions, so you can use it within your own commercial products without having to pay any royalties. The reason behind this choice was due to its better affinity with Android when compared to LGPL, and because that was [the license that Sun Microsystems chose when releasing the OpenJDK](http://openjdk.java.net/legal/gplv2+ce.html). Being GPL though, we expect people to contribute back changes when they are related directly to the original code, such as bug fixes, but nothing more. Enjoy!
 
+What is available in the public Maven repositories?
+---------------------------------------------------
+Take a look at the OpenCV preset (root project v2.4.9, Java preset v0.9) : (http://search.maven.org/#artifactdetails/org.bytedeco.javacpp-presets/opencv/2.4.9-0.9/jar)[http://search.maven.org/#artifactdetails/org.bytedeco.javacpp-presets/opencv/2.4.9-0.9/jar]. It's all there - Mac, Linux, Windows, Android. 32bit, 64bit, ARM permutations too. Naturally, they are quite big, but we hope they are ready to go for many. We uploaded that for the benefit of all, but it is also possible that you have a version of, say, Linux that's more specialized than we've targetted here - in which case you might want to build the preset yourself for your own Maven repo.
+
+What is on your TODO list ?
+---------------------------
+* More presets (yet to enumerate)
+* Working through upper limits of the parser, as we encounter them.
+
 Do you offer commercial support?
 --------------------------------
 
