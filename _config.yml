@@ -1,5 +1,5 @@
 name: Bytedeco
-description: <strong>Bytedeco</strong> aims to be the portal for native libraries on the Java platform, offering ready-to-use bindings generated with the codeveloped <strong>JavaCPP</strong>, the missing bridge between Java and C/C++. See the <a href="https://github.com/bytedeco">developer site on GitHub</a> for more information about the projects.
+description: Bytedeco aims to be <strong>the</strong> portal for native libraries made available to the Java platform, offering ready-to-use bindings generated with the codeveloped <strong>JavaCPP</strong> technology. This, we hope, is the missing bridge between Java and C/C++.
 url: http://bytedeco.org
 markdown: redcarpet
 pygments: true

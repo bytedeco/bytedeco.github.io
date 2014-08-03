@@ -4,21 +4,23 @@ title: Bytedeco Home
 ---
 
 <div id="home">
-  <p class="desc">
+  <p class="post">
     {{ site.description }}
   </p>
 
   <div class="post">
-    <h1>Project List</h1>
+    <h1>Core technologies</h1>
 
     <p>
     </p>
     <ul>
-    <li><a href="https://github.com/bytedeco/javacpp">JavaCPP</a> &ndash; Tool that can not only generate JNI code but also build native wrapper library files from an appropriate interface file written entirely in Java. It can also parse automatically C/C++ header files to produce the required Java interface files.</li>
-    <li><a href="https://github.com/bytedeco/javacpp-presets">JavaCPP Presets</a> &ndash; Set of modules that uses JavaCPP to wrap predefined C/C++ libraries, exposing almost all of their relevant APIs and making them available in a portable and user-friendly fashion to any Java virtual machine (including Android), as if they were like any other normal Java libraries. The following C/C++ libraries are currently supported:
+    <li><a href="https://github.com/bytedeco/javacpp">JavaCPP</a> &ndash; A tool that can not only generate JNI code but also build native wrapper library files from an appropriate interface file written entirely in Java. It can also parse automatically C/C++ header files to produce the required Java interface files.</li>
+    </ul>
+    <h1>Pre-built Java bindings to C++ libraries</h1>
+    These we call "Presets". Many co-exist in the same Github repository: <a href="https://github.com/bytedeco/javacpp-presets">bytedeco/javacpp-presets</a>. All of these have used JavaCPP to wrap predefined C/C++ libraries from open-source land. These expose almost all of the relevant APIs, and make them available in a portable and user-friendly fashion to any Java virtual machine (including Android), as if they were like any other normal Java libraries. We have preset bindings to the following C/C++ libraries:
     <ul>
-    <li><a href="https://github.com/bytedeco/javacpp-presets/tree/master/opencv">OpenCV</a> &ndash; [<a href="https://github.com/bytedeco/javacpp-presets/tree/master/opencv#sample-usage">sample usage</a>] &ndash; Open source computer vision</li>
-    <li><a href="https://github.com/bytedeco/javacpp-presets/tree/master/ffmpeg">FFmpeg</a> &ndash; [<a href="https://github.com/bytedeco/javacpp-presets/tree/master/ffmpeg#sample-usage">sample usage</a>] &ndash; The leading audio/video library</li>
+    <li><a href="https://github.com/bytedeco/javacpp-presets/tree/master/opencv">OpenCV</a> &ndash; [<a href="https://github.com/bytedeco/javacpp-presets/tree/master/opencv#sample-usage">sample usage</a>] &ndash; Open source computer vision - 2500 optimized computer vision and machine learning  algorithms</li>
+    <li><a href="https://github.com/bytedeco/javacpp-presets/tree/master/ffmpeg">FFmpeg</a> &ndash; [<a href="https://github.com/bytedeco/javacpp-presets/tree/master/ffmpeg#sample-usage">sample usage</a>] &ndash; The leading audio/video library - record, convert and stream audio and video</li>
     <li><a href="https://github.com/bytedeco/javacpp-presets/tree/master/flycapture">FlyCapture</a> &ndash; [<a href="https://github.com/bytedeco/javacpp-presets/tree/master/flycapture#sample-usage">sample usage</a>] &ndash; Image acquisition and camera control software</li>
     <li><a href="https://github.com/bytedeco/javacpp-presets/tree/master/libdc1394">libdc1394</a> &ndash; [<a href="https://github.com/bytedeco/javacpp-presets/tree/master/libdc1394#sample-usage">sample usage</a>] &ndash; A high-level API for DCAM/IIDC cameras</li>
     <li><a href="https://github.com/bytedeco/javacpp-presets/tree/master/libfreenect">OpenKinect</a> &ndash; [<a href="https://github.com/bytedeco/javacpp-presets/tree/master/libfreenect#sample-usage">sample usage</a>] &ndash; Open source library to use the Xbox Kinect</li>
@@ -30,8 +32,11 @@ title: Bytedeco Home
     <li><a href="https://github.com/bytedeco/javacpp-presets/tree/master/llvm">LLVM</a> &ndash; [<a href="https://github.com/bytedeco/javacpp-presets/tree/master/llvm#sample-usage">sample usage</a>] &ndash; A collection of modular and reusable compiler and toolchain technologies</li>
     <li><a href="https://github.com/bytedeco/javacpp-presets/tree/master/leptonica">Leptonica</a> &ndash; [<a href="https://github.com/bytedeco/javacpp-presets/tree/master/leptonica#sample-usage">sample usage</a>] &ndash; Software useful for image processing and image analysis applications</li>
     <li><a href="https://github.com/bytedeco/javacpp-presets/tree/master/tesseract">Tesseract</a> &ndash; [<a href="https://github.com/bytedeco/javacpp-presets/tree/master/tesseract#sample-usage">sample usage</a>] &ndash; Probably the most accurate open source OCR engine available</li>
-    <li><a href="https://github.com/bytedeco/javacpp-presets/wiki/Create-New-Presets">Add here your favorite C/C++ library</a> &ndash; OpenNI, OpenMesh, PCL, etc.</li>
-    </ul></li>
+    <li>Add here your favorite C/C++ library. e.g. OpenNI, OpenMesh, PCL. <a href="https://github.com/bytedeco/javacpp-presets/wiki/Create-New-Presets">Read about how to do that.</a></li> 
+    </ul>
+    <p>We will add more to this list as they are made, including those from outside the <a href="https://github.com/bytedeco/javacpp-presets">bytedeco/javacpp-presets</a> repository.</p>
+    <h1>Larger projects that leverage the presets above</h1>
+    <ul>
     <li><a href="https://github.com/bytedeco/javacv">JavaCV</a> &ndash; Library based on the JavaCPP Presets that depends on commonly used native libraries in the field of computer vision to facilitate the development of those applications on the Java platform. It provides easy-to-use interfaces to grab frames from cameras and audio/video streams, process them, and record them back on disk or send them over the network.</li>
     <li><a href="https://github.com/bytedeco/javacv-examples">JavaCV Examples</a> &ndash; Collection of examples originally written in C++ for the book entitled <em>OpenCV 2 Computer Vision Application Programming Cookbook</em> by Robert Laganière, but ported to JavaCV and written in Scala.</li>
     <li><a href="https://github.com/bytedeco/procamcalib">ProCamCalib</a> &ndash; Sample JavaCV application that can perform geometric and photometric calibration of a set of video projectors and color cameras.</li>
@@ -41,9 +46,13 @@ title: Bytedeco Home
     </p>
   </div>
 
+  <h1>More project information</h1>
+  
     <p>Please refer to the <a href="contribute/">contribute</a> and <a href="download/">download</a> pages for more information about how to help out or obtain this software.</p>
+	
+	<p>See the <a href="https://github.com/bytedeco">developer site on GitHub</a> for more general information about the ByteDeco projects.</p>
 
-  <h1>Latest News <a href="/feed.xml"><img src="/Feed-icon.png" alt="feed"/></a></h1>
+  <h1>Latest news <a href="/feed.xml"><img src="/Feed-icon.png" alt="feed"/></a></h1>
 
   <!-- This loops through the paginated posts -->
   {% for post in paginator.posts %}
