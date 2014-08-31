@@ -53,6 +53,8 @@ That said, providing builds of JavaCPP Presets for more platforms, most notably 
 
 In either case, please be sure to [contact us](mailto:contact at bytedeco.org) personally to discuss arrangements, thank you!
 
+https://github.com/bytedeco/javacpp
+
 <a id="submit-code"></a>
 Submit Code
 -----------
@@ -76,6 +78,9 @@ Here is a list of coding tasks in no particular order that, in all likelihood, w
  * Designing and building a framework for continuous integration that could provide builds for multiple platforms and test for regression
 
 After determining an interesting feature that you would like to implement, please make sure to create an "issue". This lets everyone know who is working on what. It also creates the occasion to have a discussion about the design before starting to code. Thank you for your cooperation!
+
+<a id="new-wrappers"></a>
+### New Wrappers
 
 Specific targets for wrapping, that we have in mind:
 
