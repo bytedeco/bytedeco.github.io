@@ -76,3 +76,56 @@ Here is a list of coding tasks in no particular order that, in all likelihood, w
  * Designing and building a framework for continuous integration that could provide builds for multiple platforms and test for regression
 
 After determining an interesting feature that you would like to implement, please make sure to create an "issue". This lets everyone know who is working on what. It also creates the occasion to have a discussion about the design before starting to code. Thank you for your cooperation!
+
+Specific targets for wrapping, that we have in mind:
+
+#### V8
+
+A [V8](https://developers.google.com/v8/get_started) wrapper should including the ability for JS to call back to Java code, and Java to be able to observe JS object lifecycle events so it can release resources.
+
+#### SQLite
+
+Many developers are hugs fans of [SQLite](http://www.sqlite.org/), not just for embedded solutions but as an embeddable engine for creating custom distributed big data stores. There's already a JDBC interface but it only exposes a fraction of the power of the sqlite API. For example, it would be cool to be able to register custom function / aggregate by passing a Java lambda. Or define our own virtual tables in Java, allowing custom data-structures/data-sources to be participate in SQL joins.
+
+#### Berkeley / POSIX Sockets API
+
+Refer [the wikipedia page](http://en.wikipedia.org/wiki/Berkeley_sockets), but there are others too.
+
+Many of use, over time, have become more and more frustrated with Java's general networking and IO APIs. They are so over-abstracted and are lowest common denominator to support all operating systems. We would rather get much closer to the OS and be able to use all its features. The basics like open(), socket(), read(), write(), select(), poll(), etc. In addition to those, the OS specific enhancements like SO_REUSEPORT which was introduced in Linux 3.9 is amazingly useful and not available to Java users. Also unix domain sockets including their extended capabilities like being able to find information about the process on the other end and being able to pass open file descriptors over them.
+
+#### libgit2
+
+Manipulate git repositories. Build versioned data-stores directly on the git model. Using version control backends directly in apps is an exciting application direction, but accessing git from Java is incredibly painful, and [libgit2](https://libgit2.github.com/) capability would be great.
+
+#### Browser engines
+
+Namely [Blink](http://www.chromium.org/blink), [WebKit](https://www.webkit.org/) and/or [WebCore](http://en.wikipedia.org/wiki/WebKit#WebCore), [Gecko](https://developer.mozilla.org/en-US/docs/Mozilla/Gecko). Allow Java apps to run complete headless or visible browsers in their apps and fully watch and manipulate the live DOM, provide services to web-pages, etc without complicated inter-process coordination.
+
+#### Alternate windowing frameworks
+
+Swing is controversial. Even with advanced look & feels it always looks out of place on a native desktop and doesn't fit just right with other things. [SWT](http://www.eclipse.org/swt/) uses native platform libraries that tightly integrate with desktop, but it is a gigantic beast. We would be interested to see if other native but lightweight widget libraries would excite the Java community such as [wxWidgets](http://www.wxwidgets.org/), [Fox Toolkit](http://www.fox-toolkit.org/) or [FLTK](http://www.fltk.org/index.php).  [Qt](http://qt-project.org/) too, but that could be another gigantic beast, and has some wrappers alredy.
+
+#### LLVM
+
+It would be cool to be create a Java API for generating and compiling [LLVM](http://llvm.org/) IR. There are lots of Java libraries that create bytecode on the fly (e.g. ASM), but imagine if you could generate native performance libraries on the fly too.
+
+Sam has already mapped the C API of LLVM to Java (a subset of the larger task) and [it actually works](https://github.com/bytedeco/javacpp-presets/tree/master/llvm).
+
+#### libusb
+
+[Libwb](http://www.libusb.org/) C library for interop with USB. Not a job for JavaCPP, but a worthy deliverable given the cross-platform nature of it.
+
+#### libffi
+
+Though OpenJDK uses [libffi](https://sourceware.org/libffi/) to implement foreign-function interfaces, there's no general linkable library for this, that would be for all JavaSE versions.
+
+#### libcap
+
+From their website: libpcap is a system-independent interface for user-level packet capture. libpcap provides a portable framework for low-level network monitoring. Applications include network statistics collection, security monitoring, network debugging, etc. Super-cool huh?
+
+http://sourceforge.net/projects/libpcap/
+
+#### Lua
+
+[Lua](http://www.lua.org/) is everyone's favoring game-centric embeddable scripting language.  It would be great to see it more interacting on a sort of peer-to-peer basis, [like Haskell](http://stackoverflow.com/a/10370902/523744).
+    
