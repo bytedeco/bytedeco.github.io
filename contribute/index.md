@@ -53,8 +53,6 @@ That said, providing builds of JavaCPP Presets for more platforms, most notably 
 
 In either case, please be sure to [contact us](mailto:contact at bytedeco.org) personally to discuss arrangements, thank you!
 
-https://github.com/bytedeco/javacpp
-
 <a id="submit-code"></a>
 Submit Code
 -----------
