@@ -183,3 +183,10 @@ code {
 .comment .info {
   background-color: #eee;
 }
+
+
+blockquote {
+    padding: 0px 15px;
+    color: #777;
+    border-left: 4px solid #DDD;
+}

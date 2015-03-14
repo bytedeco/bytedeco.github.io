@@ -1,0 +1,21 @@
+---
+layout: post
+title: Java meets Caffe, deep learning in perspective
+---
+
+My main field of expertise being basically computer vision, there I see something like [JavaCPP](https://github.com/bytedeco/javacpp) playing an important role. Apart from my own efforts with [JavaCV](https://github.com/bytedeco/javacv), recently I became aware of similar sentiments in the field of deep learning, which has been gaining tremendously in popularity over the past few years. Namely, [Yann LeCun](http://yann.lecun.com/), one of the gurus of deep learning, has made surprisingly relevant comments last year about their own efforts:
+
+>(At Facebook) We are using Torch7 for many projects (as does Deep Mind and several groups at Google) and will be contributing to the public version.
+> 
+>Torch is a numerical/scientific computing extension of LuaJIT with an ML/neural net library on top.
+> 
+>The huge advantage of LuaJIT over Python is that it way, way faster, leaner, simpler, and that interfacing C/C++/CUDA code to it is incredibly easy and fast.
+
+— [Yann LeCun's answers from the Reddit AMA](http://fastml.com/yann-lecuns-answers-from-the-reddit-ama/)
+
+In other words, he admits that they would probably be using Python if the runtime were faster and could easily interface with native functionality, the lack of which are reason enough to justify taking some distance from the more vibrant communities evolving around [NumPy](http://www.numpy.org/), [SciPy](http://www.scipy.org/), and [Theano](http://www.deeplearning.net/software/theano/). Java already has performance and simplicity on its side, and even leanness with implementations like [Avian](http://oss.readytalk.com/avian/) sporting a footprint of less than 1 MB, but easy and fast access to native functionality never materialized — until JavaCPP became reality. [Lua can interface directly with C only](http://luajit.org/ext_ffi.html), but we have a better solution here that can even use C++ template libraries for CUDA, such as Thrust, all that without writing a single line of C++: [Interface Thrust and CUDA with JavaCPP](https://github.com/bytedeco/javacpp/wiki/Interface-Thrust-and-CUDA). To illustrate my point and demonstrate the potential of our approach, I created Java bindings for [Caffe](http://caffe.berkeleyvision.org/), one of the most popular deep learning frameworks, that also happens to feature a complicated C++ API. Nevertheless, it took only a weekend's time to create an almost complete interface, now available on GitHub as [JavaCPP Presets for Caffe](https://github.com/bytedeco/javacpp-presets/tree/master/caffe). At the time of this writing, we are not aware of any other existing Java wrappers, not even partial, for Caffe.
+
+Now, for someone working in this kind of field, what else is missing from Java to become an attractive alternative to Python or Lua? An interactive command line interface would be one of those things. Even though languages such as Groovy or Scala already have REPL on top of the JVM, it might become a standard feature of the JDK itself as soon as Java 9 with [JEP 222: Java Read-Eval-Print Loop (REPL)](http://openjdk.java.net/jeps/222). The only other important missing piece seems to be extensive library support for image processing, statistics, operations on matrices, data visualization, etc. We ourselves are attempting to provide some of these APIs by taping into available native libraries via the [JavaCPP Presets](https://github.com/bytedeco/javacpp-presets), but given the recent interest expressed by the industry for deep learning, where Java is king, popular frameworks such as [Deeplearning4j](http://deeplearning4j.org/) have already emerged, in a renewed quest to fill those gaps in Java.
+
+That said, we hope the tools offered here can help you succeed in your own endeavors, deep learning or not. We would very much like to hear what you have to say, so do not hesitate to leave a comment. Moreover, if there is anything you need that is not currently available and would like to have a more private discussion, please [contact us by email](mailto:contact at bytedeco.org). This will also help us considerably in better orienting our future goals. Thank you very much for your time!
+
