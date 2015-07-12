@@ -29,7 +29,7 @@ Yes, the core of the software is licensed under the [Apache License, Version 2.0
 
 What is available in the Maven Central Repository?
 --------------------------------------------------
-Take a look at the JavaCPP Presets 0.11 for OpenCV 2.4.11: [Artifact Details For org.bytedeco.javacpp-presets : opencv : 2.4.11-0.11](http://search.maven.org/#artifactdetails|org.bytedeco.javacpp-presets|opencv|2.4.11-0.11|jar). The gist of it is all there - Linux, Mac OS X, Windows, Android. x86, x86_64, and ARM permutations too. Naturally, the artifacts are quite big, but we hope they are ready to go for many. We uploaded that for the benefit of all, but it is also possible that you have a version of, say, Linux that's more specialized than we've targeted here - in which case you might want to build the presets yourself for your own Maven repo.
+Take a look at the JavaCPP Presets 1.0 for OpenCV 3.0: [Browse Central For org.bytedeco.javacpp-presets : opencv : 3.0.0-1.0](http://search.maven.org/#artifactdetails|org.bytedeco.javacpp-presets|opencv|3.0.0-1.0|jar). The gist of it is all there - Linux, Mac OS X, Windows, Android. x86, x86_64, and ARM permutations too. Naturally, the artifacts are quite big, but we hope they are ready to go for many. We uploaded that for the benefit of all, but it is also possible that you have a version of, say, Linux that's more specialized than we've targeted here - in which case you might want to build the presets yourself for your own Maven repo.
 
 
 What is on your to-do list?
