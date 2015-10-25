@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bytedeco Contribute
+title: Contribute
 ---
 
 Contribute
