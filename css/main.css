@@ -80,17 +80,31 @@ a:hover   { color: #8ad; }
 
 .title {
   display: inline-block;
-  margin-top: 0.9em;
-  margin-bottom: 0.9em;
-  margin-left: 0.5em;
+  width:146px;
+  height:42px;
+  margin-top: 0.6em;
+  margin-bottom: 0.45em;
+  margin-left: 0.55em;
+  vertical-align: -0.5em;
+}
+
+.title a span {
+  display:none;
 }
 
 .title a {
+  background: url('/Bytedeco.svg') no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width:146px;
+  height:42px;
   color: #fff;
   text-shadow: 2px 2px #000;
 }
 
 .title a:hover {
+  background: url('/Bytedeco_hover.svg') no-repeat;
+  background-size: contain;
   text-shadow: 4px 4px #000;
 }
 
