@@ -23,7 +23,6 @@ Archive Files
  * ProCamTracker 1.1 source archive  [procamtracker-1.1-src.zip](http://search.maven.org/remotecontent?filepath=org/bytedeco/procamtracker/1.1/procamtracker-1.1-src.zip) (67 KB)
 
 
-<a id="maven-dependencies"></a>
 Maven Dependencies
 ------------------
 
