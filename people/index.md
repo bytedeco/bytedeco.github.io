@@ -13,6 +13,15 @@ These days, I am working full time on [Deeplearning4j](http://deeplearning4j.org
 
 For more information about some of my past activities, please visit my [now archived personal website](http://www.ok.ctrl.titech.ac.jp/res/PCS/). Also, feel free to contact me by email for any personal inquiries: [samuel.audet `at` bytedeco.org](mailto:samuel.audet at bytedeco.org)
 
+Lloyd Chan
+-----------
+
+A Software Engineer by trade, Biomedical Engineer by training, currently working on the Platform team at [M3](https://www.m3.com) in Tokyo on a revamp of front and backend systems to improve resilience, speed and maintainability of our distributed services.  Like Samuel, I'm originally from Canada and earned my engineering degree in [Engineering Science](http://engsci.utoronto.ca/) from the [University of Toronto](https://www.utoronto.ca/).
+
+For the past few years, most of my development has been done in Scala, but my career began in Scheme and later on, Ruby. When I started writing a [set of blog posts](https://beachape.com/blog/2016/03/08/scala-and-opencv-ep-1-akka-webcam/) on computer vision in Scala, I realised that it was fairly difficult to start such a project due to native dependencies, so I wrote 2 plugins to make it dead simple to begin using JavaCPP and JavaCV in Scala: [SBT-JavaCPP](https://github.com/bytedeco/sbt-javacpp) and [SBT-JavaCV](https://github.com/bytedeco/sbt-javacv). I joined Bytedeco when my SBT plugins got absorbed into the organisation at Samuel's request.
+
+Feel free to contact me [on Twitter](https://twitter.com/meta_Lloyd) or [on Github](https://github.com/lloydmeta) if you have any questions for me.
+
 Jarek Sacha
 -----------
 <p></p>
