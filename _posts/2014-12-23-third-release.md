@@ -42,19 +42,19 @@ public class Blend {
 
     /** Does alpha blending with high-performance Indexer from JavaCPP. */
     static void blendFast(final Mat rgbaImg, final Mat bgrImg, final Mat dstImg) {
-        final ByteIndexer rgbaIdx = rgbaImg.createIndexer();
-        final ByteIndexer bgrIdx = bgrImg.createIndexer();
-        final ByteIndexer dstIdx = dstImg.createIndexer();
+        final UByteIndexer rgbaIdx = rgbaImg.createIndexer();
+        final UByteIndexer bgrIdx = bgrImg.createIndexer();
+        final UByteIndexer dstIdx = dstImg.createIndexer();
         final int rows = rgbaImg.rows(), cols = rgbaImg.cols();
 
         Parallel.loop(0, rows, new Parallel.Looper() { 
         public void loop(int from, int to, int looperID) {
         for (int i = from; i < to; i++) {
             for (int j = 0; j < cols; j++) {
-                float a = (rgbaIdx.get(i, j, 3) & 0xFF) * (1.0f/255.0f);
-                float b = (rgbaIdx.get(i, j, 2) & 0xFF) * a + (bgrIdx.get(i, j, 0) & 0xFF) * (1.0f - a);
-                float g = (rgbaIdx.get(i, j, 1) & 0xFF) * a + (bgrIdx.get(i, j, 1) & 0xFF) * (1.0f - a);
-                float r = (rgbaIdx.get(i, j, 0) & 0xFF) * a + (bgrIdx.get(i, j, 2) & 0xFF) * (1.0f - a);
+                float a = rgbaIdx.get(i, j, 3) * (1.0f/255.0f);
+                float b = rgbaIdx.get(i, j, 2) * a + bgrIdx.get(i, j, 0) * (1.0f - a);
+                float g = rgbaIdx.get(i, j, 1) * a + bgrIdx.get(i, j, 1) * (1.0f - a);
+                float r = rgbaIdx.get(i, j, 0) * a + bgrIdx.get(i, j, 2) * (1.0f - a);
                 dstIdx.put(i, j, 0, (byte)b);
                 dstIdx.put(i, j, 1, (byte)g);
                 dstIdx.put(i, j, 2, (byte)r);
@@ -97,15 +97,15 @@ public class Blend {
         System.out.println("blendFast(): " + (time3 - time2) / 100000000.0f + " ms");
 
         // compare
-        ByteIndexer dst1Idx = dst1Img.createIndexer();
-        ByteIndexer dst2Idx = dst2Img.createIndexer();
+        UByteIndexer dst1Idx = dst1Img.createIndexer();
+        UByteIndexer dst2Idx = dst2Img.createIndexer();
         int rows = bgrImg.rows(), cols = bgrImg.cols(), channels = bgrImg.channels();
 exit:
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 for (int k = 0; k < channels; k++) {
-                    int val1 = dst1Idx.get(i, j, k) & 0xFF;
-                    int val2 = dst2Idx.get(i, j, k) & 0xFF;
+                    int val1 = dst1Idx.get(i, j, k);
+                    int val2 = dst2Idx.get(i, j, k);
                     if (Math.abs(val1 - val2) > 1) {
                         System.out.println(val1 + " != " + val2 + " at (" + i + ", " + j + ")");
                         break exit;
