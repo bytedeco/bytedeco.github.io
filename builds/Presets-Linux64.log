@@ -1,0 +1,76 @@
+Started by user [8mha:AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZO/dLi1CL9sMw8AN5cAka+AAAA[0mVin B
+Building on master in workspace /var/lib/jenkins/workspace/Presets-Linux64
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/bytedeco/javacpp.git
+ > git init /var/lib/jenkins/workspace/Presets-Linux64/javacpp # timeout=10
+Fetching upstream changes from https://github.com/bytedeco/javacpp.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/bytedeco/javacpp.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/bytedeco/javacpp.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/bytedeco/javacpp.git # timeout=10
+Fetching upstream changes from https://github.com/bytedeco/javacpp.git
+ > git fetch --tags --progress https://github.com/bytedeco/javacpp.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision de43b8253e2482f5211246f193b05d76d1df0235 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f de43b8253e2482f5211246f193b05d76d1df0235
+ > git rev-list de43b8253e2482f5211246f193b05d76d1df0235 # timeout=10
+Cloning the remote Git repository
+Cloning repository https://github.com/bytedeco/javacpp-presets.git
+ > git init /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets # timeout=10
+Fetching upstream changes from https://github.com/bytedeco/javacpp-presets.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/bytedeco/javacpp-presets.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/bytedeco/javacpp-presets.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/bytedeco/javacpp-presets.git # timeout=10
+Fetching upstream changes from https://github.com/bytedeco/javacpp-presets.git
+ > git fetch --tags --progress https://github.com/bytedeco/javacpp-presets.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 43329aed47f35769234398dec6410c1e1134e9f9 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 43329aed47f35769234398dec6410c1e1134e9f9
+ > git rev-list 43329aed47f35769234398dec6410c1e1134e9f9 # timeout=10
+Cloning the remote Git repository
+Cloning repository https://github.com/bytedeco/javacv.git
+ > git init /var/lib/jenkins/workspace/Presets-Linux64/javacv # timeout=10
+Fetching upstream changes from https://github.com/bytedeco/javacv.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/bytedeco/javacv.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/bytedeco/javacv.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/bytedeco/javacv.git # timeout=10
+Fetching upstream changes from https://github.com/bytedeco/javacv.git
+ > git fetch --tags --progress https://github.com/bytedeco/javacv.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f630183a54a841c146d448997a85f5de451536fc (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f630183a54a841c146d448997a85f5de451536fc
+ > git rev-list f630183a54a841c146d448997a85f5de451536fc # timeout=10
+[Presets-Linux64] $ /bin/sh -xe /tmp/hudson1172188566646293561.sh
++ sudo docker run --rm --privileged -v /home/ubuntu:/home/ubuntu -v /var/lib/jenkins/workspace:/var/lib/jenkins/workspace -v /usr/local/cuda-8.0/:/usr/local/cuda-8.0 -e USER=jenkins -e USERID=106 -u 106 vinnieb2/javacv-centos /home/jenkins/buildjavacpp-presets-Centos.sh
+/home/jenkins/buildjavacpp-presets-Centos.sh: line 5: cd: /var/lib/jenkins/workspace/JavaCV-Linux/: No such file or directory
+/home/jenkins/buildjavacpp-presets-Centos.sh: line 6: cd: javacpp: No such file or directory
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.081 s
+[INFO] Finished at: 2016-12-20T18:33:13+00:00
+[INFO] Final Memory: 6M/75M
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+could not build
+Build step 'Execute shell' marked build as failure
