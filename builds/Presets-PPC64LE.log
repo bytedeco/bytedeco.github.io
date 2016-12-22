@@ -1,0 +1,200 @@
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:117: error: cannot find symbol
+[WARNING] public static Tensor create(double[] data, TensorShape shape) { Tensor t = new Tensor(DT_DOUBLE, shape); DoubleBuffer b = t.createBuffer(); b.put(data); return t; }
+[WARNING] ^
+[WARNING] symbol:   class Tensor
+[WARNING] location: class AbstractTensor
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:118: error: cannot find symbol
+[WARNING] public static Tensor create(int[]    data, TensorShape shape) { Tensor t = new Tensor(DT_INT32,  shape); IntBuffer    b = t.createBuffer(); b.put(data); return t; }
+[WARNING] ^
+[WARNING] symbol:   class TensorShape
+[WARNING] location: class AbstractTensor
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:118: error: cannot find symbol
+[WARNING] public static Tensor create(int[]    data, TensorShape shape) { Tensor t = new Tensor(DT_INT32,  shape); IntBuffer    b = t.createBuffer(); b.put(data); return t; }
+[WARNING] ^
+[WARNING] symbol:   class Tensor
+[WARNING] location: class AbstractTensor
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:119: error: cannot find symbol
+[WARNING] public static Tensor create(short[]  data, TensorShape shape) { Tensor t = new Tensor(DT_INT16,  shape); ShortBuffer  b = t.createBuffer(); b.put(data); return t; }
+[WARNING] ^
+[WARNING] symbol:   class TensorShape
+[WARNING] location: class AbstractTensor
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:119: error: cannot find symbol
+[WARNING] public static Tensor create(short[]  data, TensorShape shape) { Tensor t = new Tensor(DT_INT16,  shape); ShortBuffer  b = t.createBuffer(); b.put(data); return t; }
+[WARNING] ^
+[WARNING] symbol:   class Tensor
+[WARNING] location: class AbstractTensor
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:120: error: cannot find symbol
+[WARNING] public static Tensor create(byte[]   data, TensorShape shape) { Tensor t = new Tensor(DT_INT8,   shape); ByteBuffer   b = t.createBuffer(); b.put(data); return t; }
+[WARNING] ^
+[WARNING] symbol:   class TensorShape
+[WARNING] location: class AbstractTensor
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:120: error: cannot find symbol
+[WARNING] public static Tensor create(byte[]   data, TensorShape shape) { Tensor t = new Tensor(DT_INT8,   shape); ByteBuffer   b = t.createBuffer(); b.put(data); return t; }
+[WARNING] ^
+[WARNING] symbol:   class Tensor
+[WARNING] location: class AbstractTensor
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:121: error: cannot find symbol
+[WARNING] public static Tensor create(long[]   data, TensorShape shape) { Tensor t = new Tensor(DT_INT64,  shape); LongBuffer   b = t.createBuffer(); b.put(data); return t; }
+[WARNING] ^
+[WARNING] symbol:   class TensorShape
+[WARNING] location: class AbstractTensor
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:121: error: cannot find symbol
+[WARNING] public static Tensor create(long[]   data, TensorShape shape) { Tensor t = new Tensor(DT_INT64,  shape); LongBuffer   b = t.createBuffer(); b.put(data); return t; }
+[WARNING] ^
+[WARNING] symbol:   class Tensor
+[WARNING] location: class AbstractTensor
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:122: error: cannot find symbol
+[WARNING] public static Tensor create(String[] data, TensorShape shape) {
+[WARNING] ^
+[WARNING] symbol:   class TensorShape
+[WARNING] location: class AbstractTensor
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:122: error: cannot find symbol
+[WARNING] public static Tensor create(String[] data, TensorShape shape) {
+[WARNING] ^
+[WARNING] symbol:   class Tensor
+[WARNING] location: class AbstractTensor
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:216: error: cannot find symbol
+[WARNING] SessionOptions options; // a reference to prevent deallocation
+[WARNING] ^
+[WARNING] symbol:   class SessionOptions
+[WARNING] location: class AbstractSession
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:220: error: cannot find symbol
+[WARNING] public AbstractSession(SessionOptions options) {
+[WARNING] ^
+[WARNING] symbol:   class SessionOptions
+[WARNING] location: class AbstractSession
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:227: error: cannot find symbol
+[WARNING] @Namespace public static native void delete(Session session);
+[WARNING] ^
+[WARNING] symbol:   class Session
+[WARNING] location: class AbstractSession
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:229: error: cannot find symbol
+[WARNING] protected static class DeleteDeallocator extends Session implements Pointer.Deallocator {
+[WARNING] ^
+[WARNING] symbol:   class Session
+[WARNING] location: class AbstractSession
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:230: error: cannot find symbol
+[WARNING] DeleteDeallocator(Session p) { super(p); }
+[WARNING] ^
+[WARNING] symbol:   class Session
+[WARNING] location: class DeleteDeallocator
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:72: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.NewSession;
+[WARNING] ^
+[WARNING] symbol:   static NewSession
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:71: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_UINT8;
+[WARNING] ^
+[WARNING] symbol:   static DT_UINT8
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:70: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_STRING;
+[WARNING] ^
+[WARNING] symbol:   static DT_STRING
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:69: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_QUINT8;
+[WARNING] ^
+[WARNING] symbol:   static DT_QUINT8
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:68: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_QINT8;
+[WARNING] ^
+[WARNING] symbol:   static DT_QINT8
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:67: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_QINT32;
+[WARNING] ^
+[WARNING] symbol:   static DT_QINT32
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:66: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_INT8;
+[WARNING] ^
+[WARNING] symbol:   static DT_INT8
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:65: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_INT64;
+[WARNING] ^
+[WARNING] symbol:   static DT_INT64
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:64: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_INT32;
+[WARNING] ^
+[WARNING] symbol:   static DT_INT32
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:63: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_INT16;
+[WARNING] ^
+[WARNING] symbol:   static DT_INT16
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:62: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_FLOAT;
+[WARNING] ^
+[WARNING] symbol:   static DT_FLOAT
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:61: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_DOUBLE;
+[WARNING] ^
+[WARNING] symbol:   static DT_DOUBLE
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:60: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_COMPLEX64;
+[WARNING] ^
+[WARNING] symbol:   static DT_COMPLEX64
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:59: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_BOOL;
+[WARNING] ^
+[WARNING] symbol:   static DT_BOOL
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:58: error: cannot find symbol
+[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_BFLOAT16;
+[WARNING] ^
+[WARNING] symbol:   static DT_BFLOAT16
+[WARNING] location: class
+[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:220: warning - Tag @link: can't find NewSession(SessionOptions) in org.bytedeco.javacpp.tensorflow
+[INFO] Building jar: /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/target/tensorflow-javadoc.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tensorflow ---
+[INFO] Installing /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/target/tensorflow.jar to /home/opuser/.m2/repository/org/bytedeco/javacpp-presets/tensorflow/0.11.0-1.3.1-SNAPSHOT/tensorflow-0.11.0-1.3.1-SNAPSHOT.jar
+[INFO] Installing /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/pom.xml to /home/opuser/.m2/repository/org/bytedeco/javacpp-presets/tensorflow/0.11.0-1.3.1-SNAPSHOT/tensorflow-0.11.0-1.3.1-SNAPSHOT.pom
+[INFO] Installing /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/target/tensorflow-linux-ppc64le.jar to /home/opuser/.m2/repository/org/bytedeco/javacpp-presets/tensorflow/0.11.0-1.3.1-SNAPSHOT/tensorflow-0.11.0-1.3.1-SNAPSHOT-linux-ppc64le.jar
+[INFO] Installing /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/target/tensorflow-sources.jar to /home/opuser/.m2/repository/org/bytedeco/javacpp-presets/tensorflow/0.11.0-1.3.1-SNAPSHOT/tensorflow-0.11.0-1.3.1-SNAPSHOT-sources.jar
+[INFO] Installing /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/target/tensorflow-javadoc.jar to /home/opuser/.m2/repository/org/bytedeco/javacpp-presets/tensorflow/0.11.0-1.3.1-SNAPSHOT/tensorflow-0.11.0-1.3.1-SNAPSHOT-javadoc.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] JavaCPP Presets ................................... SUCCESS [0.486s]
+[INFO] JavaCPP Presets for OpenCV ........................ SUCCESS [21:38.305s]
+[INFO] JavaCPP Presets for FFmpeg ........................ SUCCESS [22:19.122s]
+[INFO] JavaCPP Presets for FlyCapture .................... SUCCESS [14.336s]
+[INFO] JavaCPP Presets for libdc1394 ..................... SUCCESS [58.755s]
+[INFO] JavaCPP Presets for libfreenect ................... SUCCESS [20.481s]
+[INFO] JavaCPP Presets for librealsense .................. SUCCESS [4.187s]
+[INFO] JavaCPP Presets for videoInput .................... SUCCESS [7.833s]
+[INFO] JavaCPP Presets for ARToolKitPlus ................. SUCCESS [33.282s]
+[INFO] JavaCPP Presets for Chilitags ..................... SUCCESS [58.200s]
+[INFO] JavaCPP Presets for flandmark ..................... SUCCESS [30.915s]
+[INFO] JavaCPP Presets for HDF5 .......................... SUCCESS [11:06.021s]
+[INFO] JavaCPP Presets for OpenBLAS ...................... SUCCESS [24:56.373s]
+[INFO] JavaCPP Presets for FFTW .......................... SUCCESS [5:31.237s]
+[INFO] JavaCPP Presets for GSL ........................... SUCCESS [10:39.701s]
+[INFO] JavaCPP Presets for LLVM .......................... SUCCESS [4.293s]
+[INFO] JavaCPP Presets for Leptonica ..................... SUCCESS [8:19.208s]
+[INFO] JavaCPP Presets for Tesseract ..................... SUCCESS [6:04.509s]
+[INFO] JavaCPP Presets for Caffe ......................... SUCCESS [3:03.356s]
+[INFO] JavaCPP Presets for CUDA .......................... SUCCESS [32:09.359s]
+[INFO] JavaCPP Presets for MXNet ......................... SUCCESS [3:13.235s]
+[INFO] JavaCPP Presets for TensorFlow .................... SUCCESS [7.033s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2:33:02.321s
+[INFO] Finished at: Tue Dec 20 22:57:25 UTC 2016
+[INFO] Final Memory: 28M/501M
+[INFO] ------------------------------------------------------------------------
+called with:  Presets-PPC64LE 4 SUCCESS 01-12-2016 20:12:369 25-11-2016 14:11:850
+found line to replace  | <img src="fails.png" width="20" height="20" /> |Presets-PPC64LE|8/4/16 15:23:42|10/4/16 15:23:42 |[Log](test.log)|
+
+Finished: SUCCESS

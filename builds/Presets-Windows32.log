@@ -1,0 +1,200 @@
+    [CC] vp9/encoder/x86/vp9_quantize_sse2.c.o
+    [CC] vp9/encoder/x86/vp9_diamond_search_sad_avx.c.o
+    [CC] vp9/encoder/x86/vp9_dct_intrin_sse2.c.o
+    [CC] vp9/encoder/x86/vp9_dct_ssse3.c.o
+    [CC] vp9/encoder/x86/vp9_frame_scale_ssse3.c.o
+    [CC] vp9/encoder/x86/vp9_error_intrin_avx2.c.o
+    [CC] vp9/decoder/vp9_decodemv.c.o
+    [CC] vp9/vp9_dx_iface.c.o
+    [CC] vp9/decoder/vp9_decodeframe.c.o
+    [CC] vp9/decoder/vp9_detokenize.c.o
+    [CC] vp9/decoder/vp9_dthread.c.o
+    [CC] vp9/decoder/vp9_decoder.c.o
+    [CC] vp9/decoder/vp9_dsubexp.c.o
+    [CC] vpx_config.c.o
+    [AS] vpx_ports/emms.asm.o
+    [AS] vpx_ports/x86_abi_support.asm.o
+    [AS] vpx_dsp/x86/intrapred_sse2.asm.o
+    [AS] vpx_dsp/x86/intrapred_ssse3.asm.o
+    [AS] vpx_dsp/x86/vpx_subpixel_8t_ssse3.asm.o
+    [AS] vpx_dsp/x86/vpx_subpixel_8t_sse2.asm.o
+    [AS] vpx_dsp/x86/add_noise_sse2.asm.o
+    [AS] vpx_dsp/x86/vpx_subpixel_bilinear_sse2.asm.o
+    [AS] vpx_dsp/x86/vpx_subpixel_bilinear_ssse3.asm.o
+    [AS] vpx_dsp/x86/vpx_convolve_copy_sse2.asm.o
+    [AS] vpx_dsp/x86/inv_wht_sse2.asm.o
+    [AS] vpx_dsp/x86/sad_sse3.asm.o
+    [AS] vpx_dsp/x86/sad_ssse3.asm.o
+    [AS] vpx_dsp/x86/sad_sse4.asm.o
+    [AS] vpx_dsp/x86/sad4d_sse2.asm.o
+    [AS] vpx_dsp/x86/sad_sse2.asm.o
+    [AS] vpx_dsp/x86/subtract_sse2.asm.o
+    [AS] vpx_dsp/x86/halfpix_variance_impl_sse2.asm.o
+    [AS] vpx_dsp/x86/subpel_variance_sse2.asm.o
+    [AS] vp8/common/x86/dequantize_mmx.asm.o
+    [AS] vp8/common/x86/idctllm_mmx.asm.o
+    [AS] vp8/common/x86/iwalsh_mmx.asm.o
+    [AS] vp8/common/x86/vp8_loopfilter_mmx.asm.o
+    [AS] vp8/common/x86/recon_mmx.asm.o
+    [AS] vp8/common/x86/copy_sse2.asm.o
+    [AS] vp8/common/x86/subpixel_mmx.asm.o
+    [AS] vp8/common/x86/idctllm_sse2.asm.o
+    [AS] vp8/common/x86/subpixel_sse2.asm.o
+    [AS] vp8/common/x86/recon_sse2.asm.o
+    [AS] vp8/common/x86/loopfilter_sse2.asm.o
+    [AS] vp8/common/x86/iwalsh_sse2.asm.o
+    [AS] vp8/common/x86/copy_sse3.asm.o
+    [AS] vp8/common/x86/subpixel_ssse3.asm.o
+    [AS] vp8/common/x86/postproc_mmx.asm.o
+    [AS] vp8/common/x86/mfqe_sse2.asm.o
+    [AS] vp8/common/x86/postproc_sse2.asm.o
+    [AS] vp8/encoder/x86/dct_sse2.asm.o
+    [AS] vp8/encoder/x86/dct_mmx.asm.o
+    [AS] vp8/encoder/x86/fwalsh_sse2.asm.o
+    [AS] vp8/encoder/x86/temporal_filter_apply_sse2.asm.o
+    [AS] vp8/encoder/x86/quantize_mmx.asm.o
+    [AS] vp8/encoder/x86/encodeopt.asm.o
+    [AS] vp9/encoder/x86/vp9_temporal_filter_apply_sse2.asm.o
+    [AS] vp9/encoder/x86/vp9_dct_sse2.asm.o
+    [AS] vp9/encoder/x86/vp9_error_sse2.asm.o
+    [CREATE] vpx.pc
+    [CXX] third_party/googletest/src/src/gtest-all.cc.o
+    [CC] test/../ivfenc.c.o
+    [CC] test/../md5_utils.c.o
+    [CXX] test/../third_party/libwebm/mkvparser/mkvparser.cc.o
+    [CXX] test/../third_party/libwebm/mkvparser/mkvreader.cc.o
+test/../third_party/libwebm/mkvparser/mkvparser.cc: In static member function 'static bool mkvparser::PrimaryChromaticity::Parse(mkvparser::IMkvReader*, long long int, long long int, bool, mkvparser::PrimaryChromaticity**)':
+test/../third_party/libwebm/mkvparser/mkvparser.cc:4986:8: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<PrimaryChromaticity> chromaticity_ptr;
+        ^~~~~~~~
+In file included from C:/msys64/mingw32/include/c++/6.2.0/memory:81:0,
+                 from test/../third_party/libwebm/mkvparser/mkvparser.cc:20:
+C:/msys64/mingw32/include/c++/6.2.0/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+test/../third_party/libwebm/mkvparser/mkvparser.cc: In static member function 'static bool mkvparser::MasteringMetadata::Parse(mkvparser::IMkvReader*, long long int, long long int, mkvparser::MasteringMetadata**)':
+test/../third_party/libwebm/mkvparser/mkvparser.cc:5017:8: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<MasteringMetadata> mm_ptr(new MasteringMetadata());
+        ^~~~~~~~
+In file included from C:/msys64/mingw32/include/c++/6.2.0/memory:81:0,
+                 from test/../third_party/libwebm/mkvparser/mkvparser.cc:20:
+C:/msys64/mingw32/include/c++/6.2.0/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+test/../third_party/libwebm/mkvparser/mkvparser.cc: In static member function 'static bool mkvparser::Colour::Parse(mkvparser::IMkvReader*, long long int, long long int, mkvparser::Colour**)':
+test/../third_party/libwebm/mkvparser/mkvparser.cc:5098:8: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+   std::auto_ptr<Colour> colour_ptr(new Colour());
+        ^~~~~~~~
+In file included from C:/msys64/mingw32/include/c++/6.2.0/memory:81:0,
+                 from test/../third_party/libwebm/mkvparser/mkvparser.cc:20:
+C:/msys64/mingw32/include/c++/6.2.0/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+third_party/googletest/src/src/gtest-all.cc:6617:13: warning: 'testing::internal::g_in_fast_death_test_child' defined but not used [-Wunused-variable]
+ static bool g_in_fast_death_test_child = false;
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+    [CXX] test/../webmdec.cc.o
+    [CC] test/../y4menc.c.o
+    [CC] test/../y4minput.c.o
+    [CXX] test/active_map_refresh_test.cc.o
+    [CXX] test/active_map_test.cc.o
+    [CXX] test/add_noise_test.cc.o
+    [CXX] test/aq_segment_test.cc.o
+    [CXX] test/altref_test.cc.o
+    [CXX] test/avg_test.cc.o
+    [CXX] test/borders_test.cc.o
+    [CXX] test/byte_alignment_test.cc.o
+    [CXX] test/config_test.cc.o
+    [CXX] test/cpu_speed_test.cc.o
+    [CXX] test/convolve_test.cc.o
+    [CXX] test/cq_test.cc.o
+    [CXX] test/datarate_test.cc.o
+    [CXX] test/dct32x32_test.cc.o
+    [CXX] test/dct16x16_test.cc.o
+In file included from ./vp9/common/vp9_entropymode.h:15:0,
+                 from ./vp9/common/vp9_blockd.h:23,
+                 from ./vp9/common/vp9_scan.h:18,
+                 from test/dct16x16_test.cc:24:
+./vp9/common/vp9_entropymv.h: In function 'int use_mv_hp(const MV*)':
+./vp9/common/vp9_entropymv.h:35:25: error: invalid operands of types '__gnu_cxx::__enable_if<true, double>::__type {aka double}' and 'int' to binary 'operator>>'
+   return (abs(ref->row) >> 3) < COMPANDED_MVREF_THRESH &&
+           ~~~~~~~~~~~~~~^~~~
+./vp9/common/vp9_entropymv.h:36:25: error: invalid operands of types '__gnu_cxx::__enable_if<true, double>::__type {aka double}' and 'int' to binary 'operator>>'
+          (abs(ref->col) >> 3) < COMPANDED_MVREF_THRESH;
+           ~~~~~~~~~~~~~~^~~~
+make[1]: *** [Makefile:158: test/dct16x16_test.cc.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+    [CXX] test/decode_api_test.cc.o
+make: *** [Makefile:17: .DEFAULT] Error 2
+[ERROR] Command execution failed.
+org.apache.commons.exec.ExecuteException: Process exited with an error: 2 (Exit value: 2)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at org.codehaus.mojo.exec.ExecMojo.executeCommandLine(ExecMojo.java:764)
+	at org.codehaus.mojo.exec.ExecMojo.executeCommandLine(ExecMojo.java:711)
+	at org.codehaus.mojo.exec.ExecMojo.execute(ExecMojo.java:289)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] JavaCPP Presets .................................... SUCCESS [  1.217 s]
+[INFO] JavaCPP Presets for OpenCV ......................... SUCCESS [17:08 min]
+[INFO] JavaCPP Presets for FFmpeg ......................... FAILURE [12:26 min]
+[INFO] JavaCPP Presets for FlyCapture ..................... SKIPPED
+[INFO] JavaCPP Presets for libdc1394 ...................... SKIPPED
+[INFO] JavaCPP Presets for libfreenect .................... SKIPPED
+[INFO] JavaCPP Presets for librealsense ................... SKIPPED
+[INFO] JavaCPP Presets for videoInput ..................... SKIPPED
+[INFO] JavaCPP Presets for ARToolKitPlus .................. SKIPPED
+[INFO] JavaCPP Presets for Chilitags ...................... SKIPPED
+[INFO] JavaCPP Presets for flandmark ...................... SKIPPED
+[INFO] JavaCPP Presets for HDF5 ........................... SKIPPED
+[INFO] JavaCPP Presets for OpenBLAS ....................... SKIPPED
+[INFO] JavaCPP Presets for FFTW ........................... SKIPPED
+[INFO] JavaCPP Presets for GSL ............................ SKIPPED
+[INFO] JavaCPP Presets for LLVM ........................... SKIPPED
+[INFO] JavaCPP Presets for Leptonica ...................... SKIPPED
+[INFO] JavaCPP Presets for Tesseract ...................... SKIPPED
+[INFO] JavaCPP Presets for Caffe .......................... SKIPPED
+[INFO] JavaCPP Presets for CUDA ........................... SKIPPED
+[INFO] JavaCPP Presets for MXNet .......................... SKIPPED
+[INFO] JavaCPP Presets for TensorFlow ..................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 29:37 min
+[INFO] Finished at: 2016-12-20T16:31:46+00:00
+[INFO] Final Memory: 34M/438M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.5.0:exec (javacpp.cppbuild.install) on project ffmpeg: Command execution failed. Process exited with an error: 2 (Exit value: 2) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :ffmpeg
+Build step 'Execute Windows batch command' marked build as failure
