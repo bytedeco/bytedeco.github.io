@@ -1,200 +1,200 @@
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/types.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/operations.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/bufferpool.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/mat.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/persistence.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/optim.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/types_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/imgproc_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/detail/distortion_model.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/video.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/video/tracking_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/video/tracking.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/video/background_segm.hpp
-[INFO] Targeting /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/src/main/java/org/bytedeco/javacpp/opencv_videoio.java
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/hal/interface.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/cvdef.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/hal/hal.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/fast_math.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/saturate.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/version.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/base.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/cvstd.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/utility.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/types_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/core_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/types.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/operations.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/bufferpool.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/mat.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/persistence.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/optim.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/types_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/imgproc_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/detail/distortion_model.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgcodecs/imgcodecs_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgcodecs.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videoio/videoio_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videoio.hpp
-[INFO] Targeting /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/src/main/java/org/bytedeco/javacpp/opencv_videostab.java
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/hal/interface.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/cvdef.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/hal/hal.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/fast_math.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/saturate.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/version.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/base.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/cvstd.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/utility.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/types_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/core_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/types.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/operations.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/bufferpool.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/mat.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/persistence.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/optim.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/types_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/imgproc_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/detail/distortion_model.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgcodecs/imgcodecs_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgcodecs.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videoio/videoio_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videoio.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/highgui/highgui_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/highgui.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/flann/defines.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/flann/miniflann.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/ml.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/features2d.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/calib3d/calib3d_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/calib3d.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/photo/photo_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/photo.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/photo/cuda.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/video.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/video/tracking_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/video/tracking.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/video/background_segm.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videostab/frame_source.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videostab/log.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videostab/fast_marching.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videostab/optical_flow.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videostab/motion_core.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videostab/outlier_rejection.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videostab/global_motion.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videostab/motion_stabilizing.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videostab/inpainting.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videostab/deblurring.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videostab/wobble_suppression.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videostab/stabilizer.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videostab/ring_buffer.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videostab.hpp
-[INFO] Targeting /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/src/main/java/org/bytedeco/javacpp/opencv_xfeatures2d.java
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/hal/interface.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/cvdef.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/hal/hal.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/fast_math.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/saturate.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/version.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/base.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/cvstd.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/utility.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/types_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/core_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/types.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/operations.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/bufferpool.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/mat.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/persistence.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/optim.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/types_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/imgproc_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/detail/distortion_model.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgcodecs/imgcodecs_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgcodecs.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videoio/videoio_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videoio.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/highgui/highgui_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/highgui.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/flann/defines.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/flann/miniflann.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/ml.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/features2d.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/calib3d/calib3d_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/calib3d.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/video.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/video/tracking_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/video/tracking.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/video/background_segm.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/shape.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/shape/emdL1.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/shape/shape_transformer.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/shape/hist_cost.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/shape/shape_distance.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/xfeatures2d.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/xfeatures2d/nonfree.hpp
-[INFO] Targeting /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/src/main/java/org/bytedeco/javacpp/opencv_ximgproc.java
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/hal/interface.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/cvdef.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/hal/hal.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/fast_math.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/saturate.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/version.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/base.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/cvstd.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/utility.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/types_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/core_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/types.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/operations.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/bufferpool.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/mat.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/persistence.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/core/optim.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/types_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/imgproc_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgproc/detail/distortion_model.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgcodecs/imgcodecs_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/imgcodecs.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videoio/videoio_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/videoio.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/highgui/highgui_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/highgui.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/flann/defines.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/flann/miniflann.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/ml.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/features2d.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/calib3d/calib3d_c.h
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/calib3d.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/ximgproc.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/ximgproc/edge_filter.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/ximgproc/disparity_filter.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/ximgproc/sparse_match_interpolator.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/ximgproc/structured_edge_detection.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/ximgproc/seeds.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/ximgproc/segmentation.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/ximgproc/fast_hough_transform.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/ximgproc/estimated_covariance.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/ximgproc/slic.hpp
-[INFO] Parsing /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/cppbuild/linux-armhf/include/opencv2/ximgproc/lsc.hpp
+libjpeg-turbo-1.5.1/simd/jcgryext-sse2.asm
+libjpeg-turbo-1.5.1/simd/jfdctflt-sse.asm
+libjpeg-turbo-1.5.1/simd/jidctred-sse2.asm
+libjpeg-turbo-1.5.1/simd/jdcolor-mmx.asm
+libjpeg-turbo-1.5.1/simd/jdcolext-sse2.asm
+libjpeg-turbo-1.5.1/simd/jcgryext-mmx.asm
+libjpeg-turbo-1.5.1/simd/CMakeLists.txt
+libjpeg-turbo-1.5.1/simd/jdmrgext-sse2.asm
+libjpeg-turbo-1.5.1/simd/jfdctfst-sse2.asm
+libjpeg-turbo-1.5.1/simd/jcgray-mmx.asm
+libjpeg-turbo-1.5.1/simd/jdct.inc
+libjpeg-turbo-1.5.1/simd/jsimd_mips_dspr2.S
+libjpeg-turbo-1.5.1/simd/jdmrgext-mmx.asm
+libjpeg-turbo-1.5.1/simd/jidctint-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jdmerge-altivec.c
+libjpeg-turbo-1.5.1/simd/jdsample-mmx.asm
+libjpeg-turbo-1.5.1/simd/jidctred-mmx.asm
+libjpeg-turbo-1.5.1/simd/jcsample.h
+libjpeg-turbo-1.5.1/simd/jsimdext.inc
+libjpeg-turbo-1.5.1/simd/jdcolext-altivec.c
+libjpeg-turbo-1.5.1/simd/jccolext-sse2.asm
+libjpeg-turbo-1.5.1/simd/jcgryext-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jdcolext-mmx.asm
+libjpeg-turbo-1.5.1/simd/jidctfst-mmx.asm
+libjpeg-turbo-1.5.1/simd/jquanti-altivec.c
+libjpeg-turbo-1.5.1/simd/jcsample-altivec.c
+libjpeg-turbo-1.5.1/simd/jsimd_arm_neon.S
+libjpeg-turbo-1.5.1/simd/jfdctfst-mmx.asm
+libjpeg-turbo-1.5.1/simd/jquantf-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jquantf-sse2.asm
+libjpeg-turbo-1.5.1/simd/jdcolor-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jidctfst-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jdmerge-mmx.asm
+libjpeg-turbo-1.5.1/simd/jsimd_arm64_neon.S
+libjpeg-turbo-1.5.1/simd/jidctfst-sse2.asm
+libjpeg-turbo-1.5.1/simd/jdsample-sse2.asm
+libjpeg-turbo-1.5.1/simd/jccolext-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jidctflt-sse2.asm
+libjpeg-turbo-1.5.1/simd/jdcolor-sse2.asm
+libjpeg-turbo-1.5.1/simd/nasm_lt.sh
+libjpeg-turbo-1.5.1/simd/jchuff-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jdcolor-altivec.c
+libjpeg-turbo-1.5.1/simd/jsimdcfg.inc.h
+libjpeg-turbo-1.5.1/simd/jcolsamp.inc
+libjpeg-turbo-1.5.1/simd/jfdctflt-sse-64.asm
+libjpeg-turbo-1.5.1/simd/jccolext-altivec.c
+libjpeg-turbo-1.5.1/simd/jdsample-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jcgray-sse2.asm
+libjpeg-turbo-1.5.1/simd/jcsample-sse2.asm
+libjpeg-turbo-1.5.1/simd/jsimd_mips_dspr2_asm.h
+libjpeg-turbo-1.5.1/simd/jccolor-mmx.asm
+libjpeg-turbo-1.5.1/simd/jquant-3dn.asm
+libjpeg-turbo-1.5.1/simd/jdmrgext-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jfdctint-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jsimd_i386.c
+libjpeg-turbo-1.5.1/simd/jidctint-altivec.c
+libjpeg-turbo-1.5.1/simd/jidctflt-sse.asm
+libjpeg-turbo-1.5.1/simd/jfdctint-sse2.asm
+libjpeg-turbo-1.5.1/simd/jfdctint-altivec.c
+libjpeg-turbo-1.5.1/simd/jsimd_arm.c
+libjpeg-turbo-1.5.1/simd/jfdctint-mmx.asm
+libjpeg-turbo-1.5.1/simd/jsimd_arm64.c
+libjpeg-turbo-1.5.1/simd/jdmerge-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jdsample-altivec.c
+libjpeg-turbo-1.5.1/simd/jccolor-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/Makefile.am
+libjpeg-turbo-1.5.1/simd/jfdctflt-3dn.asm
+libjpeg-turbo-1.5.1/simd/jidctint-sse2.asm
+libjpeg-turbo-1.5.1/simd/jdcolext-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jccolor-altivec.c
+libjpeg-turbo-1.5.1/simd/jfdctfst-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jquant-mmx.asm
+libjpeg-turbo-1.5.1/simd/jcgryext-altivec.c
+libjpeg-turbo-1.5.1/simd/jidctflt-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jquanti-sse2.asm
+libjpeg-turbo-1.5.1/simd/jdmerge-sse2.asm
+libjpeg-turbo-1.5.1/simd/jidctred-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jsimd.h
+libjpeg-turbo-1.5.1/simd/jcsample-mmx.asm
+libjpeg-turbo-1.5.1/simd/jsimd_x86_64.c
+libjpeg-turbo-1.5.1/simd/jdmrgext-altivec.c
+libjpeg-turbo-1.5.1/simd/Makefile.in
+libjpeg-turbo-1.5.1/simd/jsimd_altivec.h
+libjpeg-turbo-1.5.1/simd/jpeg_nbits_table.inc
+libjpeg-turbo-1.5.1/simd/jccolext-mmx.asm
+libjpeg-turbo-1.5.1/simd/jsimd_mips.c
+libjpeg-turbo-1.5.1/simd/jsimdcpu.asm
+libjpeg-turbo-1.5.1/jstdhuff.c
+libjpeg-turbo-1.5.1/jdhuff.h
+libjpeg-turbo-1.5.1/jdapistd.c
+
+gzip: stdin: not in gzip format
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+[ERROR] Command execution failed.
+org.apache.commons.exec.ExecuteException: Process exited with an error: 2 (Exit value: 2)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at org.codehaus.mojo.exec.ExecMojo.executeCommandLine(ExecMojo.java:764)
+	at org.codehaus.mojo.exec.ExecMojo.executeCommandLine(ExecMojo.java:711)
+	at org.codehaus.mojo.exec.ExecMojo.execute(ExecMojo.java:289)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
 [INFO] 
-[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ opencv ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 2 resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ opencv ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 24 source files to /var/lib/jenkins/workspace/Presets-LinuxArmhf/javacpp-presets/opencv/target/classes
-Build was aborted
-Aborted by [8mha:AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZO/dLi1CL9ssw8AD4aT36+AAAA[0mVin B
+[INFO] JavaCPP Presets .................................... SUCCESS [  0.888 s]
+[INFO] JavaCPP Presets for OpenCV ......................... SUCCESS [14:53 min]
+[INFO] JavaCPP Presets for FFmpeg ......................... SUCCESS [16:46 min]
+[INFO] JavaCPP Presets for FlyCapture ..................... SUCCESS [ 39.961 s]
+[INFO] JavaCPP Presets for libdc1394 ...................... SUCCESS [ 51.726 s]
+[INFO] JavaCPP Presets for libfreenect .................... SUCCESS [01:16 min]
+[INFO] JavaCPP Presets for libfreenect2 ................... SUCCESS [ 46.403 s]
+[INFO] JavaCPP Presets for librealsense ................... SUCCESS [ 28.695 s]
+[INFO] JavaCPP Presets for videoInput ..................... SUCCESS [ 31.589 s]
+[INFO] JavaCPP Presets for ARToolKitPlus .................. SUCCESS [ 45.679 s]
+[INFO] JavaCPP Presets for Chilitags ...................... SUCCESS [01:06 min]
+[INFO] JavaCPP Presets for flandmark ...................... SUCCESS [ 42.694 s]
+[INFO] JavaCPP Presets for HDF5 ........................... SUCCESS [ 32.189 s]
+[INFO] JavaCPP Presets for OpenBLAS ....................... SUCCESS [16:07 min]
+[INFO] JavaCPP Presets for FFTW ........................... SUCCESS [02:33 min]
+[INFO] JavaCPP Presets for GSL ............................ SUCCESS [05:28 min]
+[INFO] JavaCPP Presets for LLVM ........................... SUCCESS [  9.603 s]
+[INFO] JavaCPP Presets for Leptonica ...................... FAILURE [ 57.093 s]
+[INFO] JavaCPP Presets for Tesseract ...................... SKIPPED
+[INFO] JavaCPP Presets for Caffe .......................... SKIPPED
+[INFO] JavaCPP Presets for CUDA ........................... SKIPPED
+[INFO] JavaCPP Presets for MXNet .......................... SKIPPED
+[INFO] JavaCPP Presets for TensorFlow ..................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:04 h
+[INFO] Finished at: 2017-01-07T13:12:54+00:00
+[INFO] Final Memory: 34M/378M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.5.0:exec (javacpp.cppbuild.install) on project leptonica: Command execution failed. Process exited with an error: 2 (Exit value: 2) -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.5.0:exec (javacpp.cppbuild.install) on project leptonica: Command execution failed.
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Command execution failed.
+	at org.codehaus.mojo.exec.ExecMojo.execute(ExecMojo.java:302)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	... 20 more
+Caused by: org.apache.commons.exec.ExecuteException: Process exited with an error: 2 (Exit value: 2)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at org.codehaus.mojo.exec.ExecMojo.executeCommandLine(ExecMojo.java:764)
+	at org.codehaus.mojo.exec.ExecMojo.executeCommandLine(ExecMojo.java:711)
+	at org.codehaus.mojo.exec.ExecMojo.execute(ExecMojo.java:289)
+	... 22 more
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :leptonica
+Build step 'Execute shell' marked build as failure
