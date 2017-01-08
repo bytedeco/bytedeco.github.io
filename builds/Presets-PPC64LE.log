@@ -1,200 +1,200 @@
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:117: error: cannot find symbol
-[WARNING] public static Tensor create(double[] data, TensorShape shape) { Tensor t = new Tensor(DT_DOUBLE, shape); DoubleBuffer b = t.createBuffer(); b.put(data); return t; }
-[WARNING] ^
-[WARNING] symbol:   class Tensor
-[WARNING] location: class AbstractTensor
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:118: error: cannot find symbol
-[WARNING] public static Tensor create(int[]    data, TensorShape shape) { Tensor t = new Tensor(DT_INT32,  shape); IntBuffer    b = t.createBuffer(); b.put(data); return t; }
-[WARNING] ^
-[WARNING] symbol:   class TensorShape
-[WARNING] location: class AbstractTensor
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:118: error: cannot find symbol
-[WARNING] public static Tensor create(int[]    data, TensorShape shape) { Tensor t = new Tensor(DT_INT32,  shape); IntBuffer    b = t.createBuffer(); b.put(data); return t; }
-[WARNING] ^
-[WARNING] symbol:   class Tensor
-[WARNING] location: class AbstractTensor
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:119: error: cannot find symbol
-[WARNING] public static Tensor create(short[]  data, TensorShape shape) { Tensor t = new Tensor(DT_INT16,  shape); ShortBuffer  b = t.createBuffer(); b.put(data); return t; }
-[WARNING] ^
-[WARNING] symbol:   class TensorShape
-[WARNING] location: class AbstractTensor
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:119: error: cannot find symbol
-[WARNING] public static Tensor create(short[]  data, TensorShape shape) { Tensor t = new Tensor(DT_INT16,  shape); ShortBuffer  b = t.createBuffer(); b.put(data); return t; }
-[WARNING] ^
-[WARNING] symbol:   class Tensor
-[WARNING] location: class AbstractTensor
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:120: error: cannot find symbol
-[WARNING] public static Tensor create(byte[]   data, TensorShape shape) { Tensor t = new Tensor(DT_INT8,   shape); ByteBuffer   b = t.createBuffer(); b.put(data); return t; }
-[WARNING] ^
-[WARNING] symbol:   class TensorShape
-[WARNING] location: class AbstractTensor
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:120: error: cannot find symbol
-[WARNING] public static Tensor create(byte[]   data, TensorShape shape) { Tensor t = new Tensor(DT_INT8,   shape); ByteBuffer   b = t.createBuffer(); b.put(data); return t; }
-[WARNING] ^
-[WARNING] symbol:   class Tensor
-[WARNING] location: class AbstractTensor
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:121: error: cannot find symbol
-[WARNING] public static Tensor create(long[]   data, TensorShape shape) { Tensor t = new Tensor(DT_INT64,  shape); LongBuffer   b = t.createBuffer(); b.put(data); return t; }
-[WARNING] ^
-[WARNING] symbol:   class TensorShape
-[WARNING] location: class AbstractTensor
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:121: error: cannot find symbol
-[WARNING] public static Tensor create(long[]   data, TensorShape shape) { Tensor t = new Tensor(DT_INT64,  shape); LongBuffer   b = t.createBuffer(); b.put(data); return t; }
-[WARNING] ^
-[WARNING] symbol:   class Tensor
-[WARNING] location: class AbstractTensor
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:122: error: cannot find symbol
-[WARNING] public static Tensor create(String[] data, TensorShape shape) {
-[WARNING] ^
-[WARNING] symbol:   class TensorShape
-[WARNING] location: class AbstractTensor
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:122: error: cannot find symbol
-[WARNING] public static Tensor create(String[] data, TensorShape shape) {
-[WARNING] ^
-[WARNING] symbol:   class Tensor
-[WARNING] location: class AbstractTensor
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:216: error: cannot find symbol
-[WARNING] SessionOptions options; // a reference to prevent deallocation
-[WARNING] ^
-[WARNING] symbol:   class SessionOptions
-[WARNING] location: class AbstractSession
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:220: error: cannot find symbol
-[WARNING] public AbstractSession(SessionOptions options) {
-[WARNING] ^
-[WARNING] symbol:   class SessionOptions
-[WARNING] location: class AbstractSession
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:227: error: cannot find symbol
-[WARNING] @Namespace public static native void delete(Session session);
-[WARNING] ^
-[WARNING] symbol:   class Session
-[WARNING] location: class AbstractSession
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:229: error: cannot find symbol
-[WARNING] protected static class DeleteDeallocator extends Session implements Pointer.Deallocator {
-[WARNING] ^
-[WARNING] symbol:   class Session
-[WARNING] location: class AbstractSession
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:230: error: cannot find symbol
-[WARNING] DeleteDeallocator(Session p) { super(p); }
-[WARNING] ^
-[WARNING] symbol:   class Session
-[WARNING] location: class DeleteDeallocator
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:72: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.NewSession;
-[WARNING] ^
-[WARNING] symbol:   static NewSession
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:71: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_UINT8;
-[WARNING] ^
-[WARNING] symbol:   static DT_UINT8
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:70: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_STRING;
-[WARNING] ^
-[WARNING] symbol:   static DT_STRING
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:69: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_QUINT8;
-[WARNING] ^
-[WARNING] symbol:   static DT_QUINT8
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:68: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_QINT8;
-[WARNING] ^
-[WARNING] symbol:   static DT_QINT8
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:67: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_QINT32;
-[WARNING] ^
-[WARNING] symbol:   static DT_QINT32
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:66: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_INT8;
-[WARNING] ^
-[WARNING] symbol:   static DT_INT8
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:65: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_INT64;
-[WARNING] ^
-[WARNING] symbol:   static DT_INT64
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:64: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_INT32;
-[WARNING] ^
-[WARNING] symbol:   static DT_INT32
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:63: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_INT16;
-[WARNING] ^
-[WARNING] symbol:   static DT_INT16
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:62: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_FLOAT;
-[WARNING] ^
-[WARNING] symbol:   static DT_FLOAT
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:61: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_DOUBLE;
-[WARNING] ^
-[WARNING] symbol:   static DT_DOUBLE
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:60: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_COMPLEX64;
-[WARNING] ^
-[WARNING] symbol:   static DT_COMPLEX64
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:59: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_BOOL;
-[WARNING] ^
-[WARNING] symbol:   static DT_BOOL
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:58: error: cannot find symbol
-[WARNING] import static org.bytedeco.javacpp.tensorflow.DT_BFLOAT16;
-[WARNING] ^
-[WARNING] symbol:   static DT_BFLOAT16
-[WARNING] location: class
-[WARNING] /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/src/main/java/org/bytedeco/javacpp/helper/tensorflow.java:220: warning - Tag @link: can't find NewSession(SessionOptions) in org.bytedeco.javacpp.tensorflow
-[INFO] Building jar: /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/target/tensorflow-javadoc.jar
-[INFO] 
-[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tensorflow ---
-[INFO] Installing /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/target/tensorflow.jar to /home/opuser/.m2/repository/org/bytedeco/javacpp-presets/tensorflow/0.11.0-1.3.1-SNAPSHOT/tensorflow-0.11.0-1.3.1-SNAPSHOT.jar
-[INFO] Installing /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/pom.xml to /home/opuser/.m2/repository/org/bytedeco/javacpp-presets/tensorflow/0.11.0-1.3.1-SNAPSHOT/tensorflow-0.11.0-1.3.1-SNAPSHOT.pom
-[INFO] Installing /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/target/tensorflow-linux-ppc64le.jar to /home/opuser/.m2/repository/org/bytedeco/javacpp-presets/tensorflow/0.11.0-1.3.1-SNAPSHOT/tensorflow-0.11.0-1.3.1-SNAPSHOT-linux-ppc64le.jar
-[INFO] Installing /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/target/tensorflow-sources.jar to /home/opuser/.m2/repository/org/bytedeco/javacpp-presets/tensorflow/0.11.0-1.3.1-SNAPSHOT/tensorflow-0.11.0-1.3.1-SNAPSHOT-sources.jar
-[INFO] Installing /home/opuser/jenkins/workspace/Presets-PPC64LE/javacpp-presets/tensorflow/target/tensorflow-javadoc.jar to /home/opuser/.m2/repository/org/bytedeco/javacpp-presets/tensorflow/0.11.0-1.3.1-SNAPSHOT/tensorflow-0.11.0-1.3.1-SNAPSHOT-javadoc.jar
+libjpeg-turbo-1.5.1/testimages/
+libjpeg-turbo-1.5.1/testimages/testimgari.jpg
+libjpeg-turbo-1.5.1/testimages/nightshot_iso_100.txt
+libjpeg-turbo-1.5.1/testimages/vgl_6548_0026a.bmp
+libjpeg-turbo-1.5.1/testimages/testorig.ppm
+libjpeg-turbo-1.5.1/testimages/nightshot_iso_100.bmp
+libjpeg-turbo-1.5.1/testimages/testimgint.jpg
+libjpeg-turbo-1.5.1/testimages/testorig12.jpg
+libjpeg-turbo-1.5.1/testimages/vgl_6434_0018a.bmp
+libjpeg-turbo-1.5.1/testimages/testorig.jpg
+libjpeg-turbo-1.5.1/testimages/vgl_5674_0098.bmp
+libjpeg-turbo-1.5.1/jsimd.h
+libjpeg-turbo-1.5.1/jdmerge.c
+libjpeg-turbo-1.5.1/jcstest.c
+libjpeg-turbo-1.5.1/tjexampletest.in
+libjpeg-turbo-1.5.1/coderules.txt
+libjpeg-turbo-1.5.1/tjbenchtest.in
+libjpeg-turbo-1.5.1/jdhuff.c
+libjpeg-turbo-1.5.1/turbojpeg.c
+libjpeg-turbo-1.5.1/Makefile.in
+libjpeg-turbo-1.5.1/jconfigint.h.in
+libjpeg-turbo-1.5.1/simd/
+libjpeg-turbo-1.5.1/simd/jfdctfst-altivec.c
+libjpeg-turbo-1.5.1/simd/jccolor-sse2.asm
+libjpeg-turbo-1.5.1/simd/jchuff-sse2.asm
+libjpeg-turbo-1.5.1/simd/jidctfst-altivec.c
+libjpeg-turbo-1.5.1/simd/jquanti-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jcgray-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jsimd_powerpc.c
+libjpeg-turbo-1.5.1/simd/jcsample-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jcgray-altivec.c
+libjpeg-turbo-1.5.1/simd/jidctint-mmx.asm
+libjpeg-turbo-1.5.1/simd/jidctflt-3dn.asm
+libjpeg-turbo-1.5.1/simd/jquant-sse.asm
+libjpeg-turbo-1.5.1/simd/jcgryext-sse2.asm
+libjpeg-turbo-1.5.1/simd/jfdctflt-sse.asm
+libjpeg-turbo-1.5.1/simd/jidctred-sse2.asm
+libjpeg-turbo-1.5.1/simd/jdcolor-mmx.asm
+libjpeg-turbo-1.5.1/simd/jdcolext-sse2.asm
+libjpeg-turbo-1.5.1/simd/jcgryext-mmx.asm
+libjpeg-turbo-1.5.1/simd/CMakeLists.txt
+libjpeg-turbo-1.5.1/simd/jdmrgext-sse2.asm
+libjpeg-turbo-1.5.1/simd/jfdctfst-sse2.asm
+libjpeg-turbo-1.5.1/simd/jcgray-mmx.asm
+libjpeg-turbo-1.5.1/simd/jdct.inc
+libjpeg-turbo-1.5.1/simd/jsimd_mips_dspr2.S
+libjpeg-turbo-1.5.1/simd/jdmrgext-mmx.asm
+libjpeg-turbo-1.5.1/simd/jidctint-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jdmerge-altivec.c
+libjpeg-turbo-1.5.1/simd/jdsample-mmx.asm
+libjpeg-turbo-1.5.1/simd/jidctred-mmx.asm
+libjpeg-turbo-1.5.1/simd/jcsample.h
+libjpeg-turbo-1.5.1/simd/jsimdext.inc
+libjpeg-turbo-1.5.1/simd/jdcolext-altivec.c
+libjpeg-turbo-1.5.1/simd/jccolext-sse2.asm
+libjpeg-turbo-1.5.1/simd/jcgryext-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jdcolext-mmx.asm
+libjpeg-turbo-1.5.1/simd/jidctfst-mmx.asm
+libjpeg-turbo-1.5.1/simd/jquanti-altivec.c
+libjpeg-turbo-1.5.1/simd/jcsample-altivec.c
+libjpeg-turbo-1.5.1/simd/jsimd_arm_neon.S
+libjpeg-turbo-1.5.1/simd/jfdctfst-mmx.asm
+libjpeg-turbo-1.5.1/simd/jquantf-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jquantf-sse2.asm
+libjpeg-turbo-1.5.1/simd/jdcolor-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jidctfst-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jdmerge-mmx.asm
+libjpeg-turbo-1.5.1/simd/jsimd_arm64_neon.S
+libjpeg-turbo-1.5.1/simd/jidctfst-sse2.asm
+libjpeg-turbo-1.5.1/simd/jdsample-sse2.asm
+libjpeg-turbo-1.5.1/simd/jccolext-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jidctflt-sse2.asm
+libjpeg-turbo-1.5.1/simd/jdcolor-sse2.asm
+libjpeg-turbo-1.5.1/simd/nasm_lt.sh
+libjpeg-turbo-1.5.1/simd/jchuff-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jdcolor-altivec.c
+libjpeg-turbo-1.5.1/simd/jsimdcfg.inc.h
+libjpeg-turbo-1.5.1/simd/jcolsamp.inc
+libjpeg-turbo-1.5.1/simd/jfdctflt-sse-64.asm
+libjpeg-turbo-1.5.1/simd/jccolext-altivec.c
+libjpeg-turbo-1.5.1/simd/jdsample-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jcgray-sse2.asm
+libjpeg-turbo-1.5.1/simd/jcsample-sse2.asm
+libjpeg-turbo-1.5.1/simd/jsimd_mips_dspr2_asm.h
+libjpeg-turbo-1.5.1/simd/jccolor-mmx.asm
+libjpeg-turbo-1.5.1/simd/jquant-3dn.asm
+libjpeg-turbo-1.5.1/simd/jdmrgext-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jfdctint-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jsimd_i386.c
+libjpeg-turbo-1.5.1/simd/jidctint-altivec.c
+libjpeg-turbo-1.5.1/simd/jidctflt-sse.asm
+libjpeg-turbo-1.5.1/simd/jfdctint-sse2.asm
+libjpeg-turbo-1.5.1/simd/jfdctint-altivec.c
+libjpeg-turbo-1.5.1/simd/jsimd_arm.c
+libjpeg-turbo-1.5.1/simd/jfdctint-mmx.asm
+libjpeg-turbo-1.5.1/simd/jsimd_arm64.c
+libjpeg-turbo-1.5.1/simd/jdmerge-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jdsample-altivec.c
+libjpeg-turbo-1.5.1/simd/jccolor-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/Makefile.am
+libjpeg-turbo-1.5.1/simd/jfdctflt-3dn.asm
+libjpeg-turbo-1.5.1/simd/jidctint-sse2.asm
+libjpeg-turbo-1.5.1/simd/jdcolext-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jccolor-altivec.c
+libjpeg-turbo-1.5.1/simd/jfdctfst-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jquant-mmx.asm
+libjpeg-turbo-1.5.1/simd/jcgryext-altivec.c
+libjpeg-turbo-1.5.1/simd/jidctflt-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jquanti-sse2.asm
+libjpeg-turbo-1.5.1/simd/jdmerge-sse2.asm
+libjpeg-turbo-1.5.1/simd/jidctred-sse2-64.asm
+libjpeg-turbo-1.5.1/simd/jsimd.h
+libjpeg-turbo-1.5.1/simd/jcsample-mmx.asm
+libjpeg-turbo-1.5.1/simd/jsimd_x86_64.c
+libjpeg-turbo-1.5.1/simd/jdmrgext-altivec.c
+libjpeg-turbo-1.5.1/simd/Makefile.in
+libjpeg-turbo-1.5.1/simd/jsimd_altivec.h
+libjpeg-turbo-1.5.1/simd/jpeg_nbits_table.inc
+libjpeg-turbo-1.5.1/simd/jccolext-mmx.asm
+libjpeg-turbo-1.5.1/simd/jsimd_mips.c
+libjpeg-turbo-1.5.1/simd/jsimdcpu.asm
+libjpeg-turbo-1.5.1/jstdhuff.c
+libjpeg-turbo-1.5.1/jdhuff.h
+libjpeg-turbo-1.5.1/jdapistd.c
+
+gzip: stdin: not in gzip format
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+[ERROR] Command execution failed.
+org.apache.commons.exec.ExecuteException: Process exited with an error: 2 (Exit value: 2)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at org.codehaus.mojo.exec.ExecMojo.executeCommandLine(ExecMojo.java:764)
+	at org.codehaus.mojo.exec.ExecMojo.executeCommandLine(ExecMojo.java:711)
+	at org.codehaus.mojo.exec.ExecMojo.execute(ExecMojo.java:289)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:101)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:320)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary:
 [INFO] 
-[INFO] JavaCPP Presets ................................... SUCCESS [0.486s]
-[INFO] JavaCPP Presets for OpenCV ........................ SUCCESS [21:38.305s]
-[INFO] JavaCPP Presets for FFmpeg ........................ SUCCESS [22:19.122s]
-[INFO] JavaCPP Presets for FlyCapture .................... SUCCESS [14.336s]
-[INFO] JavaCPP Presets for libdc1394 ..................... SUCCESS [58.755s]
-[INFO] JavaCPP Presets for libfreenect ................... SUCCESS [20.481s]
-[INFO] JavaCPP Presets for librealsense .................. SUCCESS [4.187s]
-[INFO] JavaCPP Presets for videoInput .................... SUCCESS [7.833s]
-[INFO] JavaCPP Presets for ARToolKitPlus ................. SUCCESS [33.282s]
-[INFO] JavaCPP Presets for Chilitags ..................... SUCCESS [58.200s]
-[INFO] JavaCPP Presets for flandmark ..................... SUCCESS [30.915s]
-[INFO] JavaCPP Presets for HDF5 .......................... SUCCESS [11:06.021s]
-[INFO] JavaCPP Presets for OpenBLAS ...................... SUCCESS [24:56.373s]
-[INFO] JavaCPP Presets for FFTW .......................... SUCCESS [5:31.237s]
-[INFO] JavaCPP Presets for GSL ........................... SUCCESS [10:39.701s]
-[INFO] JavaCPP Presets for LLVM .......................... SUCCESS [4.293s]
-[INFO] JavaCPP Presets for Leptonica ..................... SUCCESS [8:19.208s]
-[INFO] JavaCPP Presets for Tesseract ..................... SUCCESS [6:04.509s]
-[INFO] JavaCPP Presets for Caffe ......................... SUCCESS [3:03.356s]
-[INFO] JavaCPP Presets for CUDA .......................... SUCCESS [32:09.359s]
-[INFO] JavaCPP Presets for MXNet ......................... SUCCESS [3:13.235s]
-[INFO] JavaCPP Presets for TensorFlow .................... SUCCESS [7.033s]
+[INFO] JavaCPP Presets ................................... SUCCESS [1.009s]
+[INFO] JavaCPP Presets for OpenCV ........................ SUCCESS [21:01.810s]
+[INFO] JavaCPP Presets for FFmpeg ........................ SUCCESS [23:07.022s]
+[INFO] JavaCPP Presets for FlyCapture .................... SUCCESS [13.601s]
+[INFO] JavaCPP Presets for libdc1394 ..................... SUCCESS [1:03.982s]
+[INFO] JavaCPP Presets for libfreenect ................... SUCCESS [20.860s]
+[INFO] JavaCPP Presets for libfreenect2 .................. SUCCESS [4.662s]
+[INFO] JavaCPP Presets for librealsense .................. SUCCESS [4.659s]
+[INFO] JavaCPP Presets for videoInput .................... SUCCESS [5.855s]
+[INFO] JavaCPP Presets for ARToolKitPlus ................. SUCCESS [33.550s]
+[INFO] JavaCPP Presets for Chilitags ..................... SUCCESS [59.976s]
+[INFO] JavaCPP Presets for flandmark ..................... SUCCESS [30.225s]
+[INFO] JavaCPP Presets for HDF5 .......................... SUCCESS [11:10.621s]
+[INFO] JavaCPP Presets for OpenBLAS ...................... SUCCESS [24:57.423s]
+[INFO] JavaCPP Presets for FFTW .......................... SUCCESS [5:14.523s]
+[INFO] JavaCPP Presets for GSL ........................... SUCCESS [10:52.701s]
+[INFO] JavaCPP Presets for LLVM .......................... SUCCESS [3.882s]
+[INFO] JavaCPP Presets for Leptonica ..................... FAILURE [11.756s]
+[INFO] JavaCPP Presets for Tesseract ..................... SKIPPED
+[INFO] JavaCPP Presets for Caffe ......................... SKIPPED
+[INFO] JavaCPP Presets for CUDA .......................... SKIPPED
+[INFO] JavaCPP Presets for MXNet ......................... SKIPPED
+[INFO] JavaCPP Presets for TensorFlow .................... SKIPPED
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
+[INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 2:33:02.321s
-[INFO] Finished at: Tue Dec 20 22:57:25 UTC 2016
-[INFO] Final Memory: 28M/501M
+[INFO] Total time: 1:40:40.067s
+[INFO] Finished at: Sat Jan 07 12:31:52 UTC 2017
+[INFO] Final Memory: 31M/419M
 [INFO] ------------------------------------------------------------------------
-called with:  Presets-PPC64LE 4 SUCCESS 01-12-2016 20:12:369 25-11-2016 14:11:850
-found line to replace  | <img src="fails.png" width="20" height="20" /> |Presets-PPC64LE|8/4/16 15:23:42|10/4/16 15:23:42 |[Log](test.log)|
-
-Finished: SUCCESS
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.5.0:exec (javacpp.cppbuild.install) on project leptonica: Command execution failed. Process exited with an error: 2 (Exit value: 2) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :leptonica
+Build step 'Execute shell' marked build as failure
