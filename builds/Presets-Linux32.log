@@ -81,10 +81,10 @@ make[1]: Leaving directory `/var/lib/jenkins/workspace/Presets-Linux32/javacpp-p
 -- Found PkgConfig: /usr/bin/pkg-config (found version "0.27.1") 
 -- Checking for module 'libusb-1.0>=1.0.20'
 --   
-CMake Error at /usr/share/cmake-3.6/Modules/FindPkgConfig.cmake:424 (message):
+CMake Error at /usr/share/cmake3/Modules/FindPkgConfig.cmake:424 (message):
   A required package was not found
 Call Stack (most recent call first):
-  /usr/share/cmake-3.6/Modules/FindPkgConfig.cmake:597 (_pkg_check_modules_internal)
+  /usr/share/cmake3/Modules/FindPkgConfig.cmake:597 (_pkg_check_modules_internal)
   cmake_modules/FindLibUSB.cmake:21 (PKG_CHECK_MODULES)
   CMakeLists.txt:93 (FIND_PACKAGE)
 
@@ -123,13 +123,13 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary:
 [INFO] 
-[INFO] JavaCPP Presets .................................... SUCCESS [  0.941 s]
-[INFO] JavaCPP Presets for OpenCV ......................... SUCCESS [12:33 min]
-[INFO] JavaCPP Presets for FFmpeg ......................... SUCCESS [16:50 min]
-[INFO] JavaCPP Presets for FlyCapture ..................... SUCCESS [ 32.834 s]
-[INFO] JavaCPP Presets for libdc1394 ...................... SUCCESS [ 46.373 s]
-[INFO] JavaCPP Presets for libfreenect .................... SUCCESS [ 34.686 s]
-[INFO] JavaCPP Presets for libfreenect2 ................... FAILURE [ 58.304 s]
+[INFO] JavaCPP Presets .................................... SUCCESS [  2.157 s]
+[INFO] JavaCPP Presets for OpenCV ......................... SUCCESS [23:18 min]
+[INFO] JavaCPP Presets for FFmpeg ......................... SUCCESS [27:20 min]
+[INFO] JavaCPP Presets for FlyCapture ..................... SUCCESS [ 36.950 s]
+[INFO] JavaCPP Presets for libdc1394 ...................... SUCCESS [ 51.955 s]
+[INFO] JavaCPP Presets for libfreenect .................... SUCCESS [ 39.878 s]
+[INFO] JavaCPP Presets for libfreenect2 ................... FAILURE [01:21 min]
 [INFO] JavaCPP Presets for librealsense ................... SKIPPED
 [INFO] JavaCPP Presets for videoInput ..................... SKIPPED
 [INFO] JavaCPP Presets for ARToolKitPlus .................. SKIPPED
@@ -149,9 +149,9 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 32:17 min
-[INFO] Finished at: 2017-01-07T12:05:06+00:00
-[INFO] Final Memory: 34M/481M
+[INFO] Total time: 54:14 min
+[INFO] Finished at: 2017-02-10T05:51:24+00:00
+[INFO] Final Memory: 34M/445M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.5.0:exec (javacpp.cppbuild.install) on project libfreenect2: Command execution failed. Process exited with an error: 1 (Exit value: 1) -> [Help 1]
 org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.5.0:exec (javacpp.cppbuild.install) on project libfreenect2: Command execution failed.
