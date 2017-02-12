@@ -1,4 +1,5 @@
-yout: default
+---
+layout: default
 title: Builds
 ---
 
@@ -67,14 +68,15 @@ These builds are currently run on a weekly basis, with any failed jobs left for 
 |------------+-----------------------+---------------------+-----------------|---------|
 | State | Target | Last Failed Build | Last Successful Build | Build Log |
 |:----------:|-----------------------|---------------------|-----------------|---------|
-| <img src="FAILURE.png" width="20" height="20" /> |Presets-Android|07-01-2017 14:00:47|20-12-2016 15:49:56|[Log](Presets-Android.log)|
-| <img src="FAILURE.png" width="20" height="20" /> |Presets-Linux64|07-01-2017 11:29:28|21-12-2016 17:31:45|[Log](Presets-Linux64.log)|
-| <img src="FAILURE.png" width="20" height="20" /> |Presets-Linux32|07-01-2017 12:05:10|21-12-2016 10:55:06|[Log](Presets-Linux32.log)|
-| <img src="FAILURE.png" width="20" height="20" /> |Presets-LinuxArmhf|07-01-2017 13:12:54|05-01-2017 10:51:50|[Log](Presets-LinuxArmhf.log)|
+| <img src="FAILURE.png" width="20" height="20" /> |Presets-AndroidArm|10-02-2017 06:49:00|08-01-2017 15:39:57|[Log](Presets-AndroidArm.log)|
+| <img src="FAILURE.png" width="20" height="20" /> |Presets-AndroidX86|07-01-2017 14:00:47|20-12-2016 15:49:56|[Log](Presets-AndroidX86.log)|
+| <img src="FAILURE.png" width="20" height="20" /> |Presets-Linux64|10-02-2017 09:33:37|21-12-2016 17:31:45|[Log](Presets-Linux64.log)|
+| <img src="FAILURE.png" width="20" height="20" /> |Presets-Linux32|10-02-2017 05:51:29|21-12-2016 10:55:06|[Log](Presets-Linux32.log)|
+| <img src="FAILURE.png" width="20" height="20" /> |Presets-LinuxArmhf|07-02-2017 15:40:43|05-02-2017 18:31:37|[Log](Presets-LinuxArmhf.log)|
 | <img src="FAILURE.png" width="20" height="20" /> |Presets-Mac64|07-01-2017 12:00:52|01-12-2016 20:40:10|[Log](Presets-Mac64.log)|
-| <img src="FAILURE.png" width="20" height="20" /> |Presets-PPC64LE|07-01-2017 12:31:55|31-12-2016 11:53:42|[Log](Presets-PPC64LE.log)|
-| <img src="FAILURE.png" width="20" height="20" /> |Presets-Windows32|07-01-2017 14:33:25|31-12-2016 11:47:27|[Log](Presets-Windows32.log)|
-| <img src="FAILURE.png" width="20" height="20" /> |Presets-Windows64|07-01-2017 12:53:11|05-01-2017 10:43:15|[Log](Presets-Windows64.log)|
+| <img src="SUCCESS.png" width="20" height="20" /> |Presets-PPC64LE|04-02-2017 11:27:35|10-02-2017 07:34:52|[Log](Presets-PPC64LE.log)|
+| <img src="SUCCESS.png" width="20" height="20" /> |Presets-Windows32|06-02-2017 13:25:29|10-02-2017 09:31:56|[Log](Presets-Windows32.log)|
+| <img src="SUCCESS.png" width="20" height="20" /> |Presets-Windows64|03-02-2017 04:53:33|10-02-2017 07:30:15|[Log](Presets-Windows64.log)|
 | <img src="SUCCESS.png" width="20" height="20" /> |Presets-Linux64-OpenJDK9|21-12-2016 11:38:41|21-12-2016 16:56|[Log](Presets-Linux64-OpenJDK9.log)|
 |------------+-----------------------+---------------------+-----------------|---------|
 

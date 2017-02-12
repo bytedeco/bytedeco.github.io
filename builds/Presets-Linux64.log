@@ -1,161 +1,156 @@
-make[3]: Nothing to be done for `install-exec-am'.
-make[3]: Nothing to be done for `install-data-am'.
-make[3]: Leaving directory `/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/libjpeg-turbo-1.5.1/simd'
-make[2]: Leaving directory `/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/libjpeg-turbo-1.5.1/simd'
-make[1]: Leaving directory `/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/libjpeg-turbo-1.5.1/simd'
-Making install in md5
-make[1]: Entering directory `/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/libjpeg-turbo-1.5.1/md5'
-make[2]: Entering directory `/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/libjpeg-turbo-1.5.1/md5'
-make[2]: Nothing to be done for `install-exec-am'.
-make[2]: Nothing to be done for `install-data-am'.
-make[2]: Leaving directory `/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/libjpeg-turbo-1.5.1/md5'
-make[1]: Leaving directory `/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/libjpeg-turbo-1.5.1/md5'
-make[1]: Entering directory `/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/libjpeg-turbo-1.5.1'
-make[2]: Entering directory `/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/libjpeg-turbo-1.5.1'
- /usr/bin/mkdir -p '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/lib'
- /bin/sh ./libtool   --mode=install /usr/bin/install -c   libjpeg.la libturbojpeg.la '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/lib'
-libtool: install: /usr/bin/install -c .libs/libjpeg.lai /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/lib/libjpeg.la
-libtool: install: /usr/bin/install -c .libs/libturbojpeg.lai /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/lib/libturbojpeg.la
-libtool: install: /usr/bin/install -c .libs/libjpeg.a /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/lib/libjpeg.a
-libtool: install: chmod 644 /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/lib/libjpeg.a
-libtool: install: ranlib /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/lib/libjpeg.a
-libtool: install: /usr/bin/install -c .libs/libturbojpeg.a /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/lib/libturbojpeg.a
-libtool: install: chmod 644 /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/lib/libturbojpeg.a
-libtool: install: ranlib /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/lib/libturbojpeg.a
-libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/lib
-----------------------------------------------------------------------
-Libraries have been installed in:
-   /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/lib
-
-If you ever happen to want to link against installed libraries
-in a given directory, LIBDIR, you must either use libtool, and
-specify the full pathname of the library, or use the '-LLIBDIR'
-flag during linking and do at least one of the following:
-   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
-     during execution
-   - add LIBDIR to the 'LD_RUN_PATH' environment variable
-     during linking
-   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
-   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
-
-See any operating system documentation about shared libraries for
-more information, such as the ld(1) and ld.so(8) manual pages.
-----------------------------------------------------------------------
- /usr/bin/mkdir -p '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/bin'
-  /bin/sh ./libtool   --mode=install /usr/bin/install -c cjpeg djpeg jpegtran rdjpgcom wrjpgcom tjbench '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/bin'
-libtool: install: /usr/bin/install -c cjpeg /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/bin/cjpeg
-libtool: install: /usr/bin/install -c djpeg /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/bin/djpeg
-libtool: install: /usr/bin/install -c jpegtran /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/bin/jpegtran
-libtool: install: /usr/bin/install -c rdjpgcom /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/bin/rdjpgcom
-libtool: install: /usr/bin/install -c wrjpgcom /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/bin/wrjpgcom
-libtool: install: /usr/bin/install -c tjbench /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/bin/tjbench
- /usr/bin/mkdir -p '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/share/doc/libjpeg-turbo'
- /usr/bin/install -c -m 644 README.ijg README.md libjpeg.txt structure.txt usage.txt wizard.txt LICENSE.md '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/share/doc/libjpeg-turbo'
- /usr/bin/mkdir -p '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/share/doc/libjpeg-turbo'
- /usr/bin/install -c -m 644 example.c '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/share/doc/libjpeg-turbo'
- /usr/bin/mkdir -p '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/include'
- /usr/bin/install -c -m 644 jerror.h jmorecfg.h jpeglib.h turbojpeg.h '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/include'
- /usr/bin/mkdir -p '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/share/man/man1'
- /usr/bin/install -c -m 644 cjpeg.1 djpeg.1 jpegtran.1 rdjpgcom.1 wrjpgcom.1 '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/share/man/man1'
- /usr/bin/mkdir -p '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/include'
- /usr/bin/install -c -m 644 jconfig.h '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/include'
- /usr/bin/mkdir -p '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/lib/pkgconfig'
- /usr/bin/install -c -m 644 pkgscripts/libjpeg.pc pkgscripts/libturbojpeg.pc '/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/lib/pkgconfig'
-make[2]: Leaving directory `/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/libjpeg-turbo-1.5.1'
-make[1]: Leaving directory `/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/libjpeg-turbo-1.5.1'
--- The C compiler identification is GNU 4.8.5
--- The CXX compiler identification is GNU 4.8.5
--- Check for working C compiler: /usr/bin/gcc
--- Check for working C compiler: /usr/bin/gcc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /usr/bin/g++
--- Check for working CXX compiler: /usr/bin/g++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- using tinythread as threading library
--- Found PkgConfig: /usr/bin/pkg-config (found version "0.27.1") 
--- Checking for module 'libusb-1.0>=1.0.20'
---   
-CMake Error at /usr/share/cmake-3.6/Modules/FindPkgConfig.cmake:424 (message):
-  A required package was not found
-Call Stack (most recent call first):
-  /usr/share/cmake-3.6/Modules/FindPkgConfig.cmake:597 (_pkg_check_modules_internal)
-  cmake_modules/FindLibUSB.cmake:21 (PKG_CHECK_MODULES)
-  CMakeLists.txt:93 (FIND_PACKAGE)
-
-
--- Configuring incomplete, errors occurred!
-See also "/var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/cppbuild/linux-x86_64/libfreenect2-0.2.0/CMakeFiles/CMakeOutput.log".
-[ERROR] Command execution failed.
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at org.codehaus.mojo.exec.ExecMojo.executeCommandLine(ExecMojo.java:764)
-	at org.codehaus.mojo.exec.ExecMojo.executeCommandLine(ExecMojo.java:711)
-	at org.codehaus.mojo.exec.ExecMojo.execute(ExecMojo.java:289)
-	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
-	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
-	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
-	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
-	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
-	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
-	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:opencv-platform:jar:3.2.0-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:opencv-platform:3.2.0-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/opencv/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:ffmpeg-platform:jar:3.2.1-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:ffmpeg-platform:3.2.1-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/ffmpeg/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:flycapture-platform:jar:2.9.3.43-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:flycapture-platform:2.9.3.43-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/flycapture/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:libdc1394-platform:jar:2.2.5-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:libdc1394-platform:2.2.5-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libdc1394/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:libfreenect-platform:jar:0.5.3-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:libfreenect-platform:0.5.3-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:libfreenect2-platform:jar:0.2.0-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:libfreenect2-platform:0.2.0-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/libfreenect2/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:librealsense-platform:jar:1.9.6-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:librealsense-platform:1.9.6-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/librealsense/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:videoinput-platform:jar:0.200-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:videoinput-platform:0.200-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/videoinput/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:artoolkitplus-platform:jar:2.3.1-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:artoolkitplus-platform:2.3.1-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/artoolkitplus/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:chilitags-platform:jar:master-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:chilitags-platform:master-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/chilitags/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:flandmark-platform:jar:1.07-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:flandmark-platform:1.07-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/flandmark/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.0-patch1-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:hdf5-platform:1.10.0-patch1-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/hdf5/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:openblas-platform:jar:0.2.19-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:openblas-platform:0.2.19-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/openblas/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:fftw-platform:jar:3.3.5-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:fftw-platform:3.3.5-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/fftw/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:gsl-platform:jar:2.2.1-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:gsl-platform:2.2.1-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/gsl/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:llvm-platform:jar:3.9.1-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:llvm-platform:3.9.1-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/llvm/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:leptonica-platform:jar:1.73-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:leptonica-platform:1.73-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/leptonica/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:tesseract-platform:jar:3.04.01-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:tesseract-platform:3.04.01-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/tesseract/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:caffe-platform:jar:master-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:caffe-platform:master-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/caffe/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:cuda-platform:jar:8.0-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:cuda-platform:8.0-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/cuda/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:mxnet-platform:jar:master-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:mxnet-platform:master-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/mxnet/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.bytedeco.javacpp-presets:tensorflow-platform:jar:1.0.0-rc0-1.3.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ org.bytedeco.javacpp-presets:tensorflow-platform:1.0.0-rc0-${project.parent.version}, /var/lib/jenkins/workspace/Presets-Linux64/javacpp-presets/tensorflow/platform/pom.xml, line 15, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 23 modules...
+[INFO] Not installing Nexus Staging features:
+[INFO]  * Preexisting staging related goal bindings found in 23 modules.
 [INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] JavaCPP Presets Platform for OpenCV
+[INFO] JavaCPP Presets Platform for FFmpeg
+[INFO] JavaCPP Presets Platform for FlyCapture
+[INFO] JavaCPP Presets Platform for libdc1394
+[INFO] JavaCPP Presets Platform for libfreenect
+[INFO] JavaCPP Presets Platform for libfreenect2
+[INFO] JavaCPP Presets Platform for librealsense
+[INFO] JavaCPP Presets Platform for videoInput
+[INFO] JavaCPP Presets Platform for ARToolKitPlus
+[INFO] JavaCPP Presets Platform for Chilitags
+[INFO] JavaCPP Presets Platform for flandmark
+[INFO] JavaCPP Presets Platform for HDF5
+[INFO] JavaCPP Presets Platform for OpenBLAS
+[INFO] JavaCPP Presets Platform for FFTW
+[INFO] JavaCPP Presets Platform for GSL
+[INFO] JavaCPP Presets Platform for LLVM
+[INFO] JavaCPP Presets Platform for Leptonica
+[INFO] JavaCPP Presets Platform for Tesseract
+[INFO] JavaCPP Presets Platform for Caffe
+[INFO] JavaCPP Presets Platform for CUDA
+[INFO] JavaCPP Presets Platform for MXNet
+[INFO] JavaCPP Presets Platform for TensorFlow
+[INFO] JavaCPP Presets Platform
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JavaCPP Presets Platform for OpenCV 3.2.0-1.3.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3.2-SNAPSHOT/opencv-3.2.0-1.3.2-SNAPSHOT-android-arm.jar
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3.2-SNAPSHOT/opencv-3.2.0-1.3.2-SNAPSHOT-android-x86.jar
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3.2-SNAPSHOT/opencv-3.2.0-1.3.2-SNAPSHOT-linux-x86.jar
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3.2-SNAPSHOT/opencv-3.2.0-1.3.2-SNAPSHOT-linux-armhf.jar
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3.2-SNAPSHOT/opencv-3.2.0-1.3.2-SNAPSHOT-linux-ppc64le.jar
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3.2-SNAPSHOT/opencv-3.2.0-1.3.2-SNAPSHOT-macosx-x86_64.jar
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3.2-SNAPSHOT/opencv-3.2.0-1.3.2-SNAPSHOT-windows-x86.jar
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3.2-SNAPSHOT/opencv-3.2.0-1.3.2-SNAPSHOT-windows-x86_64.jar
+[INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary:
 [INFO] 
-[INFO] JavaCPP Presets .................................... SUCCESS [  9.345 s]
-[INFO] JavaCPP Presets for OpenCV ......................... SUCCESS [12:58 min]
-[INFO] JavaCPP Presets for FFmpeg ......................... SUCCESS [23:07 min]
-[INFO] JavaCPP Presets for FlyCapture ..................... SUCCESS [ 31.459 s]
-[INFO] JavaCPP Presets for libdc1394 ...................... SUCCESS [ 47.444 s]
-[INFO] JavaCPP Presets for libfreenect .................... SUCCESS [ 34.732 s]
-[INFO] JavaCPP Presets for libfreenect2 ................... FAILURE [ 55.894 s]
-[INFO] JavaCPP Presets for librealsense ................... SKIPPED
-[INFO] JavaCPP Presets for videoInput ..................... SKIPPED
-[INFO] JavaCPP Presets for ARToolKitPlus .................. SKIPPED
-[INFO] JavaCPP Presets for Chilitags ...................... SKIPPED
-[INFO] JavaCPP Presets for flandmark ...................... SKIPPED
-[INFO] JavaCPP Presets for HDF5 ........................... SKIPPED
-[INFO] JavaCPP Presets for OpenBLAS ....................... SKIPPED
-[INFO] JavaCPP Presets for FFTW ........................... SKIPPED
-[INFO] JavaCPP Presets for GSL ............................ SKIPPED
-[INFO] JavaCPP Presets for LLVM ........................... SKIPPED
-[INFO] JavaCPP Presets for Leptonica ...................... SKIPPED
-[INFO] JavaCPP Presets for Tesseract ...................... SKIPPED
-[INFO] JavaCPP Presets for Caffe .......................... SKIPPED
-[INFO] JavaCPP Presets for CUDA ........................... SKIPPED
-[INFO] JavaCPP Presets for MXNet .......................... SKIPPED
-[INFO] JavaCPP Presets for TensorFlow ..................... SKIPPED
+[INFO] JavaCPP Presets Platform for OpenCV ................ FAILURE [  1.524 s]
+[INFO] JavaCPP Presets Platform for FFmpeg ................ SKIPPED
+[INFO] JavaCPP Presets Platform for FlyCapture ............ SKIPPED
+[INFO] JavaCPP Presets Platform for libdc1394 ............. SKIPPED
+[INFO] JavaCPP Presets Platform for libfreenect ........... SKIPPED
+[INFO] JavaCPP Presets Platform for libfreenect2 .......... SKIPPED
+[INFO] JavaCPP Presets Platform for librealsense .......... SKIPPED
+[INFO] JavaCPP Presets Platform for videoInput ............ SKIPPED
+[INFO] JavaCPP Presets Platform for ARToolKitPlus ......... SKIPPED
+[INFO] JavaCPP Presets Platform for Chilitags ............. SKIPPED
+[INFO] JavaCPP Presets Platform for flandmark ............. SKIPPED
+[INFO] JavaCPP Presets Platform for HDF5 .................. SKIPPED
+[INFO] JavaCPP Presets Platform for OpenBLAS .............. SKIPPED
+[INFO] JavaCPP Presets Platform for FFTW .................. SKIPPED
+[INFO] JavaCPP Presets Platform for GSL ................... SKIPPED
+[INFO] JavaCPP Presets Platform for LLVM .................. SKIPPED
+[INFO] JavaCPP Presets Platform for Leptonica ............. SKIPPED
+[INFO] JavaCPP Presets Platform for Tesseract ............. SKIPPED
+[INFO] JavaCPP Presets Platform for Caffe ................. SKIPPED
+[INFO] JavaCPP Presets Platform for CUDA .................. SKIPPED
+[INFO] JavaCPP Presets Platform for MXNet ................. SKIPPED
+[INFO] JavaCPP Presets Platform for TensorFlow ............ SKIPPED
+[INFO] JavaCPP Presets Platform ........................... SKIPPED
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 39:05 min
-[INFO] Finished at: 2017-01-07T11:29:23+00:00
-[INFO] Final Memory: 35M/442M
+[INFO] Total time: 3.341 s
+[INFO] Finished at: 2017-02-10T09:33:32+00:00
+[INFO] Final Memory: 23M/188M
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.5.0:exec (javacpp.cppbuild.install) on project libfreenect2: Command execution failed. Process exited with an error: 1 (Exit value: 1) -> [Help 1]
-org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.5.0:exec (javacpp.cppbuild.install) on project libfreenect2: Command execution failed.
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+[ERROR] Failed to execute goal on project opencv-platform: Could not resolve dependencies for project org.bytedeco.javacpp-presets:opencv-platform:jar:3.2.0-1.3.2-SNAPSHOT: The following artifacts could not be resolved: org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:android-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-armhf:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-ppc64le:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:macosx-x86_64:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:windows-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.2.0-1.3.2-SNAPSHOT: Could not find artifact org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.2.0-1.3.2-SNAPSHOT in snapshots-repo-oss (https://oss.sonatype.org/content/repositories/snapshots) -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal on project opencv-platform: Could not resolve dependencies for project org.bytedeco.javacpp-presets:opencv-platform:jar:3.2.0-1.3.2-SNAPSHOT: The following artifacts could not be resolved: org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:android-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-armhf:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-ppc64le:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:macosx-x86_64:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:windows-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.2.0-1.3.2-SNAPSHOT: Could not find artifact org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.2.0-1.3.2-SNAPSHOT in snapshots-repo-oss (https://oss.sonatype.org/content/repositories/snapshots)
+	at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies(LifecycleDependencyResolver.java:221)
+	at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies(LifecycleDependencyResolver.java:127)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved(MojoExecutor.java:245)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:199)
 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
@@ -176,25 +171,30 @@ org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal o
 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
-Caused by: org.apache.maven.plugin.MojoExecutionException: Command execution failed.
-	at org.codehaus.mojo.exec.ExecMojo.execute(ExecMojo.java:302)
-	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
-	... 20 more
-Caused by: org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at org.codehaus.mojo.exec.ExecMojo.executeCommandLine(ExecMojo.java:764)
-	at org.codehaus.mojo.exec.ExecMojo.executeCommandLine(ExecMojo.java:711)
-	at org.codehaus.mojo.exec.ExecMojo.execute(ExecMojo.java:289)
-	... 22 more
+Caused by: org.apache.maven.project.DependencyResolutionException: Could not resolve dependencies for project org.bytedeco.javacpp-presets:opencv-platform:jar:3.2.0-1.3.2-SNAPSHOT: The following artifacts could not be resolved: org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:android-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-armhf:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-ppc64le:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:macosx-x86_64:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:windows-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.2.0-1.3.2-SNAPSHOT: Could not find artifact org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.2.0-1.3.2-SNAPSHOT in snapshots-repo-oss (https://oss.sonatype.org/content/repositories/snapshots)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:211)
+	at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies(LifecycleDependencyResolver.java:195)
+	... 23 more
+Caused by: org.eclipse.aether.resolution.DependencyResolutionException: The following artifacts could not be resolved: org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:android-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-armhf:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-ppc64le:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:macosx-x86_64:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:windows-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.2.0-1.3.2-SNAPSHOT: Could not find artifact org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.2.0-1.3.2-SNAPSHOT in snapshots-repo-oss (https://oss.sonatype.org/content/repositories/snapshots)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:384)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:205)
+	... 24 more
+Caused by: org.eclipse.aether.resolution.ArtifactResolutionException: The following artifacts could not be resolved: org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:android-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-armhf:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:linux-ppc64le:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:macosx-x86_64:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:windows-x86:3.2.0-1.3.2-SNAPSHOT, org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.2.0-1.3.2-SNAPSHOT: Could not find artifact org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.2.0-1.3.2-SNAPSHOT in snapshots-repo-oss (https://oss.sonatype.org/content/repositories/snapshots)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:367)
+	... 25 more
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.2.0-1.3.2-SNAPSHOT in snapshots-repo-oss (https://oss.sonatype.org/content/repositories/snapshots)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:39)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355)
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:67)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
 [ERROR] 
 [ERROR] Re-run Maven using the -X switch to enable full debug logging.
 [ERROR] 
 [ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
-[ERROR] 
-[ERROR] After correcting the problems, you can resume the build with the command
-[ERROR]   mvn <goals> -rf :libfreenect2
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
 could not build
 Build step 'Execute shell' marked build as failure
