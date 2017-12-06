@@ -3,35 +3,17 @@ layout: default
 title: Builds
 ---
 
-<style>
-table{
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:2px solid #000000;
-}
-
-th{
-    border:2px solid #000000;
-    padding: 3px;
-}
-
-td{
-    border:1px solid #000000;
-    padding: 3px;
-}
-</style>
-
 Builds
 ======
 
-We now have reliable automated builds using Travis (to cover all Linux / Docker builds) and AppVeyor (providing Windows builds). Thanks to both initiatives for providing such a great service to open source projects! Every pull request is built for all targets, and each commit generates a new snapshot build. 
+We now have reliable automated builds using [Travis CI](https://travis-ci.org) (to cover all Android, Linux, and Mac OS X builds) and [AppVeyor](https://ci.appveyor.com) (providing Windows builds). Thanks to both initiatives for providing such a great service to open source projects! Every pull request is built for all targets, and each commit generates a new snapshot build.
 
 Using snapshot builds
 ---------------------
 
-These builds can be used instead of the main release cycles to test and use latest features with only two changes required. 
+These builds can be used outside of the main release cycles to test and use latest features with only two changes required.
 
-Firstly, in your maven settings file, add a profile like the one below to enable snapshots:
+Firstly, in your [Maven settings file](https://maven.apache.org/settings.html), add a profile like the one below to enable snapshots:
 
 ```xml
 <profile>
@@ -39,7 +21,7 @@ Firstly, in your maven settings file, add a profile like the one below to enable
   <activation><activeByDefault>true</activeByDefault></activation>
   <repositories>
     <repository>
-      <id>snapshots-repo-oss</id>
+      <id>sonatype-nexus-snapshots</id>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
       <releases><enabled>false</enabled></releases>
       <snapshots><enabled>true</enabled></snapshots>
@@ -48,20 +30,23 @@ Firstly, in your maven settings file, add a profile like the one below to enable
 </profile>
 ```
 
-Secondly, update your pom file to use the latest snapshot. Taking the [OpenCV presets example](https://github.com/bytedeco/javacpp-presets/blob/master/opencv/README.md) , the dependency in pom file would change to this:
+Secondly, update your `pom.xml` file to use the latest snapshot version. Taking the [OpenCV presets example](https://github.com/bytedeco/javacpp-presets/tree/master/opencv#sample-usage), the dependency in the `pom.xml` file would change to this:
 
 ```xml
 <dependency>
   <groupId>org.bytedeco.javacpp-presets</groupId>
   <artifactId>opencv-platform</artifactId>
-      <version>3.3.1-1.3.4-SNAPSHOT</version>
+  <version>3.3.1-1.3.4-SNAPSHOT</version>
 </dependency>
 ```
 
-It's also advisable to use specify your host platform with the javacpp.platform flag, e.g. for 64 bit linux "-Djavacpp.platform=linux-x86_64", as full distributions for all platforms may not be available.
+It is also advisable to specify your platform with the `javacpp.platform` system property and use the `--update-snapshots` option, for example, `mvn -Djavacpp.platform=linux-x86_64 --update-snapshots [...]`, as binaries for all platforms may not be available at all times.
 
 Current build status
 ---------------------
 
-Windows builds information and history is available on AppVeyor [here](https://ci.appveyor.com/project/Bytedeco/javacpp-presets) and Linux builds information and history is available on Travis [here](https://travis-ci.org/bytedeco/javacpp-presets).
+Builds information and history is available on
+
+* [Travis CI at bytedeco/javacpp-presets](https://travis-ci.org/bytedeco/javacpp-presets) for Android, Linux, and Mac OS X, and on
+* [AppVeyor at bytedeco/javacpp-presets](https://ci.appveyor.com/project/Bytedeco/javacpp-presets) for Windows.
 
