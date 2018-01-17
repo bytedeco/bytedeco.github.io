@@ -1,0 +1,29 @@
+---
+layout: post
+title: Java as a system programming language
+---
+
+Happy New Year! After spending over a year in (part-time) preparation for the next major release here at Bytedeco, version 1.4 has finally been released! A lot has been happening, so let me summarize the most important items. First, a million thanks to [Vincent Baines](https://github.com/vb216) for all the hard work getting builds to pass. We now have a proper continuous integration (CI) infrastructure based on [AppVeyor](https://www.appveyor.com/) and [Travis CI](https://www.travis-ci.org/) testing builds for pull requests as well as publishing SNAPSHOT artifacts for all platforms at each commit to the source code repositories. More information about that on the [builds page](/builds/). Next, we have introduced the concept of "extension" to JavaCPP, letting us provide separate but optional CUDA builds for OpenCV, Caffe, and TensorFlow. To enable them, one simply needs to add to the class path the JAR files containing "-gpu" in their names, and JavaCPP will automatically pick them up based on their contents. On load error, it also gracefully fall backs on non-CUDA binaries. The list of currently available CUDA artifacts is given at the bottom of the [download page](/download/). Finally, we have been busy closing the gap that prevents Java from being usable as a system programming language by introducing the [JavaCPP Presets for Systems](https://github.com/bytedeco/javacpp-presets/tree/master/systems) to access system APIs such as libc and Win32.
+
+Before going into more details on the latter topic at hand, please find a complete list of all changes in the `CHANGELOG.md` files for [JavaCPP](https://github.com/bytedeco/javacpp), [JavaCPP Presets](https://github.com/bytedeco/javacpp-presets), [JavaCV](https://github.com/bytedeco/javacv), [ProCamCalib](https://github.com/bytedeco/procamcalib), and [ProCamTracker](https://github.com/bytedeco/procamtracker). Binaries can be obtained as usual from the [Maven Central Repository](http://search.maven.org/#search%7Cga%7C1%7Cbytedeco). New presets that were contributed include [libfreenect2](https://github.com/bytedeco/javacpp-presets/tree/master/libfreenect2), [MKL](https://github.com/bytedeco/javacpp-presets/tree/master/mkl), [libpostal](https://github.com/bytedeco/javacpp-presets/tree/master/libpostal), [The Arcade Learning Environment (ALE)](https://github.com/bytedeco/javacpp-presets/tree/master/ale), [LiquidFun](https://github.com/bytedeco/javacpp-presets/tree/master/liquidfun), and [Skia](https://github.com/bytedeco/javacpp-presets/tree/master/skia), in addition to the system APIs.
+
+Although Java is still the most widely used programming language, according to the [TIOBE Index](https://www.tiobe.com/tiobe-index/), among many other sources, it is still not considered a system programming language and is conspicuously missing from the [list of system programming languages on Wikipedia](https://en.wikipedia.org/wiki/System_programming_language#Major_languages). However, things are starting to change. Beginning with Java 9, the JDK supports [ahead-of-time (AOT) compilation of Java classes](http://openjdk.java.net/jeps/295), something otherwise supported by [Avian](https://readytalk.github.io/avian/) and many others for a while already, thus allowing developers to create native executable programs that can be integrated into operating systems. Finally, thanks to JNI, JavaCPP, and now the systems presets, we can benefit easily from all the features (and suffer from all the pitfalls) of C++ right from the Java platform.
+
+Having access to systems APIs allows us to perform any operation supported by the underlying platform that is not otherwise mapped to a high-level Java API. Before the [process API updates](http://openjdk.java.net/jeps/102) included in Java 9, it was not possible to query all children and descendants of a process, or to kill forcibly an arbitrary process on the system, but it could still have been done with native APIs. However, it is still not possible, for example, to set the priority of a process on the system without resorting to external tools. With the systems presets, we can accomplish this with just a few lines of code, such as the following to set the current process priority to the lowest level, code that can also be executed interactively in a [JShell](https://docs.oracle.com/javase/9/jshell/introduction-jshell.htm) session:
+
+```java
+    import org.bytedeco.javacpp.*;
+
+    String platform = Loader.getPlatform();
+    if (platform.startsWith("linux")) {
+        linux.setpriority(linux.PRIO_PROCESS, linux.getpid(), 20);
+    } else if (platform.startsWith("macosx")) {
+        macosx.setpriority(macosx.PRIO_PROCESS, macosx.getpid(), 20);
+    } else if (platform.startsWith("windows")) {
+        windows.SetPriorityClass(windows.GetCurrentProcess(), windows.IDLE_PRIORITY_CLASS);
+    }
+```
+
+We can perform the same calls with other tools such as [JNA](https://github.com/java-native-access/jna) or [JNR](https://github.com/jnr), but with JavaCPP we get a uniform layer that also supports C++ libraries, providing a level of integration as yet unmatched by any other solutions that we are aware of on any platform. In a nutshell, *any language* targeting Java bytecode is now in a good position to become a system programming language, on the same level as the [Go language](https://golang.org/)!
+
+We hope that you are excited as we are in participating in this grand experiment, so please do not hesitate to contact us via the [mailing list from Google Groups](http://groups.google.com/group/javacpp-project), [issues on GitHub](https://github.com/bytedeco/javacpp/issues), or [the chat room at Gitter](https://gitter.im/bytedeco/javacpp), for any questions that you may have. We hope to hear from all of you soon!

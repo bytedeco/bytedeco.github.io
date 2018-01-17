@@ -17,8 +17,8 @@ Are you really trying to parse C++? That sounds insane.
 Unlike other tools such as [SWIG](http://www.swig.org/) or [BridJ](https://code.google.com/p/bridj/), we are not attempting to support C++ per se, but merely the subset required to access the API of libraries from the header files, and only what is actually used in the wild by actual C++ libraries. However, until now, no attempt has been made to try and understand what that subset might be, or how it could be mapped to Java. Our approach consists in developing [JavaCPP](https://github.com/bytedeco/javacpp) as prototype, adapting it as appropriate for as many C++ libraries as possible, finding new tricks to map most naturally the required features of C++ to Java along the way, and hopefully end up one day with a clearer understanding of what we need to map and how. Our approach has not failed (yet). This is what differentiates us from past (failed, in our opinion) attempts. So, technically the answer to the question is "no": We are trying to support the parts of C++ as used in existing header files that are useful to access native libraries, not the whole of C++.
 
 
-How does it differ from wrappers in OpenCV, etc.?
--------------------------------------------------
+How does it differ from wrappers in OpenCV, TensorFlow, etc?
+------------------------------------------------------------
 [JavaCPP](https://github.com/bytedeco/javacpp) was designed for maximum performance and flexibility. It strives to map as much of C++ as the Java language can reasonably handle, offering a level of usability to native functionality unmatched by any other solutions that we are aware of. It also provides a common foundation, a set of basic classes, to increase the interoperability between different native libraries on the Java platform. Plus, its integration with standard tools such as Maven facilitates development and deployment.
 
 
@@ -29,7 +29,7 @@ Yes, the core of the software is licensed under the [Apache License, Version 2.0
 
 What is available in the Maven Central Repository?
 --------------------------------------------------
-Take a look at the JavaCPP Presets 1.0 for OpenCV 3.0: [Browse Central For org.bytedeco.javacpp-presets : opencv : 3.0.0-1.0](http://search.maven.org/#artifactdetails|org.bytedeco.javacpp-presets|opencv|3.0.0-1.0|jar). The gist of it is all there - Linux, Mac OS X, Windows, Android. x86, x86_64, and ARM permutations too. Naturally, the artifacts are quite big, but we hope they are ready to go for many. We uploaded that for the benefit of all, but it is also possible that you have a version of, say, Linux that's more specialized than we've targeted here - in which case you might want to build the presets yourself for your own Maven repo.
+Take a look, for example, at the presets for OpenCV: [Search Central for "org.bytedeco.javacpp-presets opencv"](http://search.maven.org/#search%7Cga%7C1%7Corg.bytedeco.javacpp-presets%20opencv). The gist of it is all there - Android, Linux, Mac OS X, Windows. ARM, POWER, x86, and x86_64 permutations too. With and without CUDA (GPU). Naturally, the artifacts are quite big, but we hope they are ready to go for many. We uploaded that for the benefit of all, but it is also possible that you have a version of, say, Linux that's more specialized than we've targeted here - in which case you might want to build the presets yourself for your own Maven repository.
 
 
 What is on your to-do list?
