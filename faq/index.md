@@ -29,7 +29,7 @@ Yes, the core of the software is licensed under the [Apache License, Version 2.0
 
 What is available in the Maven Central Repository?
 --------------------------------------------------
-Take a look, for example, at the presets for OpenCV: [Search Central for "org.bytedeco.javacpp-presets opencv"](http://search.maven.org/#search%7Cga%7C1%7Corg.bytedeco.javacpp-presets%20opencv). The gist of it is all there - Android, Linux, Mac OS X, Windows. ARM, POWER, x86, and x86_64 permutations too. With and without CUDA (GPU). Naturally, the artifacts are quite big, but we hope they are ready to go for many. We uploaded that for the benefit of all, but it is also possible that you have a version of, say, Linux that's more specialized than we've targeted here - in which case you might want to build the presets yourself for your own Maven repository.
+Take a look, for example, at the presets for OpenCV: [Search Central for "org.bytedeco.javacpp-presets opencv"](http://search.maven.org/#search%7Cga%7C1%7Corg.bytedeco.javacpp-presets%20opencv). The gist of it is all there - Android, iOS, Linux, Mac OS X, Windows. ARM, ARM64, POWER, x86, and x86_64 permutations too. With and without CUDA (GPU). Naturally, the artifacts are quite big, but we hope they are ready to go for many. We uploaded that for the benefit of all, but it is also possible that you have a version of, say, Linux that's more specialized than we've targeted here - in which case you might want to build the presets yourself for your own Maven repository.
 
 
 What is on your to-do list?
