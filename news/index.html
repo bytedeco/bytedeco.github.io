@@ -4,7 +4,7 @@ title: News
 ---
 
 <div id="home">
-  <h1>News <a href="/feed.xml"><img src="/Feed-icon.png" alt="feed"/></a></h1>
+  <h1>News <a href="/feed.xml"><img src="/feed-icon.png" style="vertical-align: -10%;" width="28" height="28" alt="feed"/></a> <a href="https://twitter.com/Bytedeco"><img src="/twitter-icon.png" style="vertical-align: -10%;" width="28" height="28" alt="twitter"/></a></h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date: '%B %d, %Y' }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
