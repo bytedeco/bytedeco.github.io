@@ -48,7 +48,7 @@ Secondly, update your `pom.xml` file to use the latest snapshot version. Taking 
 <dependency>
   <groupId>org.bytedeco.javacpp-presets</groupId>
   <artifactId>opencv-platform</artifactId>
-  <version>3.4.1-1.4.2-SNAPSHOT</version>
+  <version>3.4.2-1.4.3-SNAPSHOT</version>
 </dependency>
 ```
 
