@@ -1,5 +1,5 @@
 name: Bytedeco
-description: Bytedeco makes native libraries available to the Java platform by offering ready-to-use bindings generated with the codeveloped <strong>JavaCPP</strong> technology. This, we hope, is the missing bridge between Java and C/C++.
+description: Bytedeco, Native kütüphaneleri <strong>JavaCPP</strong> teknolojisi kullanarak Java platformu için kullanılabilir hale getirir. Umarız ki bu çalışmalar Java ve C/C ++ arasındaki kayıp köprüdür.
 url: http://bytedeco.org
 markdown: kramdown
 gems: [jekyll-paginate]

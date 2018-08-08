@@ -1,20 +1,21 @@
 ---
 layout: default
-title: Builds
+title: Derlemeler
 ---
 
-Builds
-======
+Derlemeler
+==========
 
-We now have reliable automated builds using [Travis CI](https://www.travis-ci.org/) (to cover all Android, iOS, Linux, and Mac OS X builds) and [AppVeyor](https://www.appveyor.com/) (providing Windows builds). Thanks to both initiatives for providing such a great service to open source projects! Every pull request is built for all targets, and each commit generates a new snapshot build.
+Şu anda [Travis CI](https://www.travis-ci.org/) (tüm Android, iOS, Linux ve Mac OS X sürümlerini kapsayacak şekilde) ve [AppVeyor](https://www.appveyor.com/) için otomatikleştirilmiş yapılarımız var. Her iki girişim sayesinde böylesi bir hizmeti sunabiliyoruz. Her commit ve pull request sonrası derlemeler ile yeni bir snapshot oluşturuyoruz.
 
-Using Snapshot Builds
----------------------
+Snapshot Derlemesi Kullanımı
+----------------------------
 
-These builds can be used outside of the main release cycles to test and use latest features with only two changes required.
+Bu derlemeler, yalnızca iki değişiklikle test etmek ve kullanmak için ana sürüm döngüleri dışında kullanılabilir.
 
-Firstly, in your [Maven settings file](https://maven.apache.org/settings.html), for example at `~/.m2/settings.xml`, add a profile like the one below to enable snapshots:
+Öncelikle [Maven settings dosyasına](https://maven.apache.org/settings.html), örneğin `~/.m2/settings.xml` için, aşağıdakine benzer bir profil ekleyin.
 
+snapshots:
 ```xml
 <settings>
   <profiles>
@@ -42,7 +43,7 @@ Firstly, in your [Maven settings file](https://maven.apache.org/settings.html), 
 </settings>
 ```
 
-Secondly, update your `pom.xml` file to use the latest snapshot version. Taking the [OpenCV presets example](https://github.com/bytedeco/javacpp-presets/tree/master/opencv#sample-usage), the dependency in the `pom.xml` file would change to this:
+İkinci olarak, en son anlık görüntü sürümünü kullanmak için `pom.xml` dosyanızı güncelleyin. [OpenCV örneğini](https://github.com/bytedeco/javacpp-presets/tree/master/opencv#sample-usage) kullanarak yapabilirsiniz, pom.xml dosyasındaki bağımlılıklar aşağıdaki gibidir:
 
 ```xml
 <dependency>
@@ -52,22 +53,22 @@ Secondly, update your `pom.xml` file to use the latest snapshot version. Taking 
 </dependency>
 ```
 
-It is also advisable to specify your platform with the `javacpp.platform` system property and use the `--update-snapshots` option, for example, `mvn -Djavacpp.platform=linux-x86_64 --update-snapshots [...]`, as binaries for all platforms may not be available at all times.
+Platformunuzu ayrıca belirtebilirsiniz `javacpp.platform` sistem özelliği ve kullanımı `--update-snapshots` örneğin, `mvn -Djavacpp.platform=linux-x86_64 --update-snapshots [...]`, tüm platformlar için binary dosyalar her zaman mevcut olmayabilir.
 
-For convenience, we can browse and download JAR files manually as well from the snapshot repository:
+Kolaylık olması açısından, son buildler sonrası oluşan Jar dosyasnı da indirebilirsiniz:
  * [https://oss.sonatype.org/content/repositories/snapshots/org/bytedeco/](https://oss.sonatype.org/content/repositories/snapshots/org/bytedeco/)
 
-Current Build Status
----------------------
+Derleme Durumları
+-----------------
 
-Builds information and history is available on
+Derleme bilgileri ve derleme geçmişi
 
- * Travis CI for Android, iOS, Linux, and Mac OS X at
+ * Android, iOS, Linux, ve  Mac OS X için Travis CI
    * [bytedeco/javacpp](https://travis-ci.org/bytedeco/javacpp),
    * [bytedeco/javacpp-presets](https://travis-ci.org/bytedeco/javacpp-presets),
    * [bytedeco/javacv](https://travis-ci.org/bytedeco/javacv),
    * [bytedeco/sbt-javacpp](https://travis-ci.org/bytedeco/sbt-javacpp),
    * [bytedeco/sbt-javacv](https://travis-ci.org/bytedeco/sbt-javacv), and on
- * AppVeyor for Windows at
+ * Windows için AppVeyor
    * [bytedeco/javacpp-presets](https://ci.appveyor.com/project/Bytedeco/javacpp-presets).
 

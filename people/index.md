@@ -1,10 +1,10 @@
 ---
 layout: default
-title: People
+title: Geliştiriciler
 ---
 
-People
-======
+Geliştiriciler
+==============
 
 Samuel Audet
 ------------
@@ -14,7 +14,7 @@ These days, I am working full time on [Deeplearning4j](http://deeplearning4j.org
 For more information about some of my past activities, please visit my [now archived personal website](http://www.ok.ctrl.titech.ac.jp/res/PCS/). Also, feel free to contact me by email for any personal inquiries: [samuel.audet `at` bytedeco.org](mailto:samuel.audet at bytedeco.org)
 
 Lloyd Chan
------------
+----------
 
 A Software Engineer by trade, Biomedical Engineer by training, currently working on the Platform team at [M3](https://www.m3.com) in Tokyo on a revamp of front and backend systems to improve resilience, speed and maintainability of our distributed services.  Like Samuel, I'm originally from Canada and earned my engineering degree in [Engineering Science](http://engsci.utoronto.ca/) from the [University of Toronto](https://www.utoronto.ca/).
 
@@ -46,6 +46,11 @@ Vin Baines
 ----------
 <p></p>
 
-And many other contributors... Please [contact us](mailto:contact at bytedeco.org) if you feel your name is missing.
+Mesut Pişkin
+------------
+Contact me [on Website](http://mesutpiskin.com) or [on Github](https://github.com/mesutpiskin) if you have any questions for me.
 
-If you would like to become part of the team, start to [contribute](../contribute/) and make a request! Motivation is the key.
+<p></p>
+
+ve daha fazla desktekçi... İsminizin eksik olduğunu düşünüyorsanız lütfen  bizimle [iletişime geçin](mailto:contact at bytedeco.org)
+Katkıda bulunmak istiyorsanız [destek](/contribute/) kısmından başlayın.

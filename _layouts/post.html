@@ -8,11 +8,11 @@ layout: default
 {{ content }}
 </div>
 
-<h3>Comments</h3>
+<h3>Yorumlar</h3>
 {% assign element = page.path | replace: '_posts/', 'comments-' | remove: '.md' %}
 
 <div class="comments">
-<p>To add a comment, please <a href="https://github.com/bytedeco/bytedeco.github.io/blob/master/_data/{{ element }}.yml">edit the comments file</a> and send a pull request!</p>
+<p>Yorum eklemek için <a href="https://github.com/bytedeco/bytedeco.github.io/blob/master/_data/{{ element }}.yml"> burayı düzenleyin</a> ve pull request gödnerin!</p>
 
 {% for c in site.data[element] %}
   <div class="comment">
