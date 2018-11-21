@@ -26,7 +26,7 @@ These builds can be used outside of the main release cycles to test latest featu
         <dependency>
             <groupId>org.bytedeco.javacpp-presets</groupId>
             <artifactId>opencv-platform</artifactId>
-            <version>3.4.3-1.4.4-SNAPSHOT</version>
+            <version>4.0.0-1.4.4-SNAPSHOT</version>
         </dependency>
         <!-- ... -->
     </dependencies>
