@@ -208,3 +208,20 @@ blockquote {
     color: #777;
     border-left: 4px solid #DDD;
 }
+
+table {
+    margin-left: 10%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-bottom:2px solid #000000;
+}
+
+th {
+    border-top:2px solid #000000;
+    border-bottom:2px solid #000000;
+    padding: 5px;
+}
+
+td {
+    padding: 5px;
+}

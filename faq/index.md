@@ -11,6 +11,19 @@ If you do not find answers to your questions in the list below, please do not he
  * [JavaCPP Group](http://groups.google.com/group/javacpp-project)
  * [JavaCV Group](http://groups.google.com/group/javacv)
 
+How does it compare to other tools for Java (JNA, JNR, etc)?
+------------------------------------------------------------
+
+JavaCPP is currently pretty much the only tool specialized for Java that works with C++ *and* matches the performance of manually written JNI. The table below summarizes the main differences between other popular tools available.
+
+|                                                  | &emsp; C &emsp; | &nbsp; C++ &nbsp; | Java SE 7+ | Android | &emsp; iOS &emsp; | Performance |
+|--------------------------------------------------|:---------------:|:-----------------:|:----------:|:-------:|:-----------------:|:-----------:|
+| [JNA](https://github.com/java-native-access/jna) | &#9989;         | &mdash;           | &#9989;    | &#9989; | &mdash;           | &#8810; JNI |
+| [JNR](https://github.com/jnr)                    | &#9989;         | &mdash;           | &#9989;    | &mdash; | &mdash;           | &asymp; JNI |
+| [Panama Native](http://jdk.java.net/panama/)     | &#9989;         | &mdash;           | &mdash;    | &mdash; | &mdash;           | &asymp; JNI |
+| [JavaCPP](https://github.com/bytedeco/javacpp)   | &#9989;         | &#9989;           | &#9989;    | &#9989; | &#9989;           | &asymp; JNI |
+
+Contributions to the table are welcome! Please send a pull request with your new rows and/or columns to the [bytedeco/bytedeco.github.io](https://github.com/bytedeco/bytedeco.github.io) repository.
 
 Are you really trying to parse C++? That sounds insane.
 -------------------------------------------------------
