@@ -16,7 +16,7 @@ These builds can be used outside of the main release cycles to test latest featu
 ```xml
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.bytedeco.javacpp-presets.opencv</groupId>
+    <groupId>org.bytedeco.opencv</groupId>
     <artifactId>stitching</artifactId>
     <version>1.5-SNAPSHOT</version>
     <properties>
@@ -24,7 +24,7 @@ These builds can be used outside of the main release cycles to test latest featu
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.bytedeco.javacpp-presets</groupId>
+            <groupId>org.bytedeco</groupId>
             <artifactId>opencv-platform</artifactId>
             <version>4.0.1-1.5-SNAPSHOT</version>
         </dependency>
