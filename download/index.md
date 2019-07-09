@@ -18,305 +18,343 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>javacpp</artifactId>
-      <version>1.5</version>
+      <version>1.5.1</version>
     </dependency>
 
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>opencv-platform</artifactId>
-      <version>4.0.1-1.5</version>
+      <version>4.1.0-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>ffmpeg-platform</artifactId>
-      <version>4.1.3-1.5</version>
+      <version>4.1.3-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>flycapture-platform</artifactId>
-      <version>2.13.3.31-1.5</version>
+      <version>2.13.3.31-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>spinnaker-platform</artifactId>
-      <version>1.19.0.22-1.5</version>
+      <version>1.19.0.22-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>libdc1394-platform</artifactId>
-      <version>2.2.5-1.5</version>
+      <version>2.2.6-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>libfreenect-platform</artifactId>
-      <version>0.5.7-1.5</version>
+      <version>0.5.7-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>libfreenect2-platform</artifactId>
-      <version>0.2.0-1.5</version>
+      <version>0.2.0-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>librealsense-platform</artifactId>
-      <version>1.12.1-1.5</version>
+      <version>1.12.1-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>videoinput-platform</artifactId>
-      <version>0.200-1.5</version>
+      <version>0.200-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>artoolkitplus-platform</artifactId>
-      <version>2.3.1-1.5</version>
+      <version>2.3.1-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>chilitags-platform</artifactId>
-      <version>master-1.5</version>
+      <version>master-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>flandmark-platform</artifactId>
-      <version>1.07-1.5</version>
+      <version>1.07-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>hdf5-platform</artifactId>
-      <version>1.10.5-1.5</version>
+      <version>1.10.5-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>mkl-platform</artifactId>
-      <version>2019.3-1.5</version>
+      <version>2019.4-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>mkl-dnn-platform</artifactId>
-      <version>0.18.1-1.5</version>
+      <version>0.20-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>openblas-platform</artifactId>
-      <version>0.3.5-1.5</version>
+      <version>0.3.6-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>arpack-ng-platform</artifactId>
-      <version>3.7.0-1.5</version>
+      <version>3.7.0-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>cminpack-platform</artifactId>
-      <version>1.3.6-1.5</version>
+      <version>1.3.6-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>fftw-platform</artifactId>
-      <version>3.3.8-1.5</version>
+      <version>3.3.8-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>gsl-platform</artifactId>
-      <version>2.5-1.5</version>
+      <version>2.5-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>cpython-platform</artifactId>
-      <version>3.6-1.5</version>
+      <version>3.7.3-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>numpy-platform</artifactId>
-      <version>1.16.2-1.5</version>
+      <version>1.16.4-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>llvm-platform</artifactId>
-      <version>8.0.0-1.5</version>
+      <version>8.0.0-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>libpostal-platform</artifactId>
-      <version>1.1-alpha-1.5</version>
+      <version>1.1-alpha-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>leptonica-platform</artifactId>
-      <version>1.78.0-1.5</version>
+      <version>1.78.0-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>tesseract-platform</artifactId>
-      <version>4.0.0-1.5</version>
+      <version>4.1.0-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>caffe-platform</artifactId>
-      <version>1.0-1.5</version>
+      <version>1.0-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>cuda-platform</artifactId>
-      <version>10.1-7.5-1.5</version>
+      <version>10.1-7.6-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>mxnet-platform</artifactId>
-      <version>1.4.0-1.5</version>
+      <version>1.5.0.rc2-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>tensorflow-platform</artifactId>
-      <version>1.13.1-1.5</version>
+      <version>1.14.0-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>tensorrt-platform</artifactId>
-      <version>5.1-1.5</version>
+      <version>5.1-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>ale-platform</artifactId>
-      <version>0.6.0-1.5</version>
+      <version>0.6.0-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>onnx-platform</artifactId>
-      <version>1.4.1-1.5</version>
+      <version>1.5.0-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>ngraph-platform</artifactId>
-      <version>0.15.0-1.5</version>
+      <version>0.22.0-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>liquidfun-platform</artifactId>
-      <version>master-1.5</version>
+      <version>master-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>qt-platform</artifactId>
-      <version>5.12.2-1.5</version>
+      <version>5.13.0-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>skia-platform</artifactId>
-      <version>1.68.0-1.5</version>
+      <version>1.68.0-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>cpu_features-platform</artifactId>
-      <version>0.2.0-1.5</version>
+      <version>0.3.0-1.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>systems-platform</artifactId>
-      <version>1.5</version>
+      <version>1.5.1</version>
     </dependency>
 
-    <!-- Additional dependencies required to use CUDA and cuDNN -->
+    <!-- Additional dependencies required to use CUDA, cuDNN, NCCL, and TensorRT -->
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>opencv</artifactId>
-      <version>4.0.1-1.5</version>
+      <version>4.1.0-1.5.1</version>
       <classifier>linux-x86_64-gpu</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>opencv</artifactId>
-      <version>4.0.1-1.5</version>
+      <version>4.1.0-1.5.1</version>
       <classifier>macosx-x86_64-gpu</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>opencv</artifactId>
-      <version>4.0.1-1.5</version>
+      <version>4.1.0-1.5.1</version>
       <classifier>windows-x86_64-gpu</classifier>
     </dependency>
 
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>caffe</artifactId>
-      <version>1.0-1.5</version>
+      <version>1.0-1.5.1</version>
       <classifier>linux-x86_64-gpu</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>caffe</artifactId>
-      <version>1.0-1.5</version>
+      <version>1.0-1.5.1</version>
       <classifier>macosx-x86_64-gpu</classifier>
     </dependency>
 
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>mxnet</artifactId>
-      <version>1.4.0-1.5</version>
+      <version>1.5.0.rc2-1.5.1</version>
       <classifier>linux-x86_64-gpu</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>mxnet</artifactId>
-       <version>1.4.0-1.5</version>
+       <version>1.5.0.rc2-1.5.1</version>
       <classifier>macosx-x86_64-gpu</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>mxnet</artifactId>
-      <version>1.4.0-1.5</version>
+      <version>1.5.0.rc2-1.5.1</version>
       <classifier>windows-x86_64-gpu</classifier>
     </dependency>
 
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>tensorflow</artifactId>
-      <version>1.13.1-1.5</version>
+      <version>1.14.0-1.5.1</version>
       <classifier>linux-x86_64-gpu</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>tensorflow</artifactId>
-      <version>1.13.1-1.5</version>
+      <version>1.14.0-1.5.1</version>
       <classifier>macosx-x86_64-gpu</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>tensorflow</artifactId>
-      <version>1.13.1-1.5</version>
+      <version>1.14.0-1.5.1</version>
       <classifier>windows-x86_64-gpu</classifier>
+    </dependency>
+
+    <!-- Optional dependencies to load Python-enabled builds -->
+    <dependency>
+      <groupId>org.bytedeco</groupId>
+      <artifactId>tensorflow</artifactId>
+      <version>1.14.0-1.5.1</version>
+      <classifier>linux-x86_64-python</classifier>
+    </dependency>
+    <dependency>
+      <groupId>org.bytedeco</groupId>
+      <artifactId>tensorflow</artifactId>
+      <version>1.14.0-1.5.1</version>
+      <classifier>macosx-x86_64-python</classifier>
+    </dependency>
+    <dependency>
+      <groupId>org.bytedeco</groupId>
+      <artifactId>tensorflow</artifactId>
+      <version>1.14.0-1.5.1</version>
+      <classifier>windows-x86_64-python</classifier>
+    </dependency>
+    <dependency>
+      <groupId>org.bytedeco</groupId>
+      <artifactId>tensorflow</artifactId>
+      <version>1.14.0-1.5.1</version>
+      <classifier>linux-x86_64-python-gpu</classifier>
+    </dependency>
+    <dependency>
+      <groupId>org.bytedeco</groupId>
+      <artifactId>tensorflow</artifactId>
+      <version>1.14.0-1.5.1</version>
+      <classifier>macosx-x86_64-python-gpu</classifier>
+    </dependency>
+    <dependency>
+      <groupId>org.bytedeco</groupId>
+      <artifactId>tensorflow</artifactId>
+      <version>1.14.0-1.5.1</version>
+      <classifier>windows-x86_64-python-gpu</classifier>
     </dependency>
 
     <!-- Additional dependencies to use bundled CUDA, cuDNN, NCCL, and TensorRT -->
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>cuda</artifactId>
-      <version>10.1-7.5-1.5</version>
+      <version>10.1-7.6-1.5.1</version>
       <classifier>linux-x86_64-redist</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>cuda</artifactId>
-      <version>10.1-7.5-1.5</version>
+      <version>10.1-7.6-1.5.1</version>
       <classifier>linux-ppc64le-redist</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>cuda</artifactId>
-      <version>10.1-7.5-1.5</version>
+      <version>10.1-7.6-1.5.1</version>
       <classifier>macosx-x86_64-redist</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>cuda</artifactId>
-      <version>10.1-7.5-1.5</version>
+      <version>10.1-7.6-1.5.1</version>
       <classifier>windows-x86_64-redist</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>tensorrt</artifactId>
-      <version>5.1-1.5</version>
+      <version>5.1-1.5.1</version>
       <classifier>linux-x86_64-redist</classifier>
     </dependency>
 
@@ -324,38 +362,38 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>mkl</artifactId>
-      <version>2019.3-1.5</version>
+      <version>2019.4-1.5.1</version>
       <classifier>linux-x86-redist</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>mkl</artifactId>
-      <version>2019.3-1.5</version>
+      <version>2019.4-1.5.1</version>
       <classifier>linux-x86_64-redist</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>mkl</artifactId>
-      <version>2019.3-1.5</version>
+      <version>2019.4-1.5.1</version>
       <classifier>macosx-x86_64-redist</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>mkl</artifactId>
-      <version>2019.3-1.5</version>
+      <version>2019.4-1.5.1</version>
       <classifier>windows-x86-redist</classifier>
     </dependency>
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>mkl</artifactId>
-      <version>2019.3-1.5</version>
+      <version>2019.4-1.5.1</version>
       <classifier>windows-x86_64-redist</classifier>
     </dependency>
 
     <dependency>
       <groupId>org.bytedeco</groupId>
       <artifactId>javacv-platform</artifactId>
-      <version>1.5</version>
+      <version>1.5.1</version>
     </dependency>
 ```
 
