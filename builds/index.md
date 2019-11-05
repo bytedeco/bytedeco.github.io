@@ -18,7 +18,7 @@ These builds can be used outside of the main release cycles to test latest featu
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.bytedeco.opencv</groupId>
     <artifactId>stitching</artifactId>
-    <version>1.5.2-SNAPSHOT</version>
+    <version>1.5.3-SNAPSHOT</version>
     <properties>
         <exec.mainClass>Stitching</exec.mainClass>
     </properties>
@@ -26,7 +26,7 @@ These builds can be used outside of the main release cycles to test latest featu
         <dependency>
             <groupId>org.bytedeco</groupId>
             <artifactId>opencv-platform</artifactId>
-            <version>4.1.0-1.5.2-SNAPSHOT</version>
+            <version>4.1.2-1.5.3-SNAPSHOT</version>
         </dependency>
         <!-- ... -->
     </dependencies>
