@@ -17,12 +17,12 @@ How does it compare to other tools for Java (JNA, JNR, etc)?
 
 JavaCPP is currently pretty much the only tool specialized for Java that works with C++ *and* matches the performance of manually written JNI. The table below summarizes the main differences between other popular tools available.
 
-|                                                  | &emsp; C &emsp; | &nbsp; C++ &nbsp; | Java SE 7+ | Android | &emsp; iOS &emsp; | jlink   |  Presets   | Performance |
-|--------------------------------------------------|:---------------:|:-----------------:|:----------:|:-------:|:-----------------:|:-------:|:----------:|:-----------:|
-| [JNA](https://github.com/java-native-access/jna) | &#9989;         | &mdash;           | &#9989;    | &#9989; | &mdash;           | &mdash; | &mdash;    | &#8810; JNI |
-| [JNR](https://github.com/jnr)                    | &#9989;         | &mdash;           | &#9989;    | &mdash; | &mdash;           | &mdash; | &mdash;    | &asymp; JNI |
-| [Panama Native](http://jdk.java.net/panama/)     | &#9989;         | &mdash;           | &mdash;    | &mdash; | &mdash;           | &#9989; | &mdash;    | &asymp; JNI |
-| [JavaCPP](https://github.com/bytedeco/javacpp)   | &#9989;         | &#9989;           | &#9989;    | &#9989; | &#9989;           | &#9989; | &#9989;    | &asymp; JNI |
+|                                                  | &emsp; C &emsp; | &nbsp; C++ &nbsp; | Java SE 7+ | Android | &ensp; iOS &ensp; | JPMS    |  OSGi   | Presets | Performance |
+|--------------------------------------------------|:---------------:|:-----------------:|:----------:|:-------:|:-----------------:|:-------:|:-------:|:-------:|:-----------:|
+| [JNA](https://github.com/java-native-access/jna) | &#9989;         | &mdash;           | &#9989;    | &#9989; | &mdash;           | &mdash; | &#9989; | &mdash; | &#8810; JNI |
+| [JNR](https://github.com/jnr)                    | &#9989;         | &mdash;           | &#9989;    | &mdash; | &mdash;           | &mdash; | &#9989; | &mdash; | &asymp; JNI |
+| [Panama](http://jdk.java.net/panama/)            | &#9989;         | &mdash;           | &mdash;    | &mdash; | &mdash;           | &#9989; | &mdash; | &mdash; | &asymp; JNI |
+| [JavaCPP](https://github.com/bytedeco/javacpp)   | &#9989;         | &#9989;           | &#9989;    | &#9989; | &#9989;           | &#9989; | &#9989; | &#9989; | &asymp; JNI |
 
 Contributions to the table are welcome! Please send a pull request with your new rows and/or columns to the [bytedeco/bytedeco.github.io](https://github.com/bytedeco/bytedeco.github.io) repository.
 
