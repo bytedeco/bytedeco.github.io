@@ -11,25 +11,25 @@ We now have reliable automated builds using [Travis CI](https://www.travis-ci.or
 Using Snapshot Builds
 ---------------------
 
-These builds can be used outside of the main release cycles to test latest features with only a few changes required to the `pom.xml` file to obtain the latest snapshot version from the snapshot repository. Taking the [sample usage for OpenCV](https://github.com/bytedeco/javacpp-presets/tree/master/opencv#sample-usage), the dependency in the `pom.xml` file would change to this, followed by the additional repository settings:
+These builds can be used outside of the main release cycles to test latest features with only a few changes required to the build files to obtain the latest snapshot version from the snapshot repository.
+
+### Maven
+Taking the [sample usage for JavaCV](https://github.com/bytedeco/javacv#sample-usage), the dependency in the `pom.xml` file would change to this, followed by the additional repository settings:
 
 ```xml
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.bytedeco.opencv</groupId>
-    <artifactId>stitching</artifactId>
+    <groupId>org.bytedeco.javacv</groupId>
+    <artifactId>demo</artifactId>
     <version>1.5.4-SNAPSHOT</version>
-    <properties>
-        <exec.mainClass>Stitching</exec.mainClass>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.bytedeco</groupId>
-            <artifactId>opencv-platform</artifactId>
-            <version>4.3.0-1.5.4-SNAPSHOT</version>
+            <artifactId>javacv-platform</artifactId>
+            <version>1.5.4-SNAPSHOT</version>
         </dependency>
-        <!-- ... -->
     </dependencies>
+
     <repositories>
         <repository>
             <id>sonatype-nexus-snapshots</id>
@@ -42,13 +42,45 @@ These builds can be used outside of the main release cycles to test latest featu
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </pluginRepository>
     </pluginRepositories>
+
     <!-- ... -->
+
 </project>
 ```
 
 It is also advisable to specify your platform with the `javacpp.platform` system property and use the `--update-snapshots` option, for example, `mvn -Djavacpp.platform=linux-x86_64 --update-snapshots [...]`, as binaries for all platforms may not be available at all times.
 
-The `pom.xml` file above can also be used to download snapshots for others tools such as Gradle or sbt, which are incapable of downloading the snapshot artifacts by themselves. Simply save a dummy `pom.xml` file outside of any project context, run `mvn -U compile` on it, and add the necessary settings for Gradle or sbt to use artifacts from your local Maven repository. In the case of Gradle, [we specify that with `repositories { mavenLocal() }` along with the `dependencies { }` block](https://docs.gradle.org/current/userguide/repository_types.html#example_adding_the_local_maven_cache_as_a_repository), in `app/build.gradle` for an Android project, while for sbt, [we can put `resolvers += Resolver.mavenLocal` next to the `libraryDependencies`](https://www.scala-sbt.org/1.x/docs/Library-Dependencies.html#Resolvers).
+
+### Gradle
+For Gradle, the equivalent would look like below in `build.gradle` (the one inside the `app` subdirectory for an Android project), as documented at [Gradle - Declaring repositories](https://docs.gradle.org/current/userguide/declaring_repositories.html):
+```groovy
+repositories {
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+}
+
+dependencies {
+    api 'org.bytedeco:javacv-platform:1.5.4-SNAPSHOT'
+}
+
+// ...
+```
+It is also recommended to use the [platform plugin of Gradle JavaCPP](https://github.com/bytedeco/gradle-javacpp#the-platform-plugin) as exemplified in the [`javacv-demo` sample](https://github.com/bytedeco/gradle-javacpp/tree/master/samples/javacv-demo).
+
+
+### sbt
+We can do similarly for sbt in `build.sbt`, as documented at [sbt - Resolvers](https://www.scala-sbt.org/1.x/docs/Library-Dependencies.html#Resolvers):
+```scala
+resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
+
+libraryDependencies += "org.bytedeco" % "javacv-platform" % "1.5.4-SNAPSHOT"
+
+// ...
+```
+Along with either [SBT-JavaCPP](https://github.com/bytedeco/sbt-javacpp) or [SBT-JavaCV](https://github.com/bytedeco/sbt-javacv).
+
+
+### Other options
+If your build tools are having issues downloading snapshot artifacts, the `pom.xml` file above can also be used to download snapshots for them. Simply save a dummy `pom.xml` file outside of any project context, run `mvn -U compile` on it, and the artifacts will get downloaded into `~/.m2/repository` from which other tools can use them, for example, in the case of Gradle with `repositories { mavenLocal() }` or when using sbt with `resolvers += Resolver.mavenLocal`.
 
 For convenience, we can browse and download JAR files manually as well from the snapshot repository:
  * [https://oss.sonatype.org/content/repositories/snapshots/org/bytedeco/](https://oss.sonatype.org/content/repositories/snapshots/org/bytedeco/)
@@ -62,6 +94,7 @@ Builds information and history is available on
    * [bytedeco/javacpp](https://travis-ci.org/bytedeco/javacpp),
    * [bytedeco/javacpp-presets](https://travis-ci.org/bytedeco/javacpp-presets),
    * [bytedeco/javacv](https://travis-ci.org/bytedeco/javacv),
+   * [bytedeco/gradle-javacpp](https://travis-ci.org/bytedeco/gradle-javacpp),
    * [bytedeco/sbt-javacpp](https://travis-ci.org/bytedeco/sbt-javacpp),
    * [bytedeco/sbt-javacv](https://travis-ci.org/bytedeco/sbt-javacv), and on
  * AppVeyor for Windows at
