@@ -61,5 +61,5 @@ At this stage, we are not able to guarantee that presets will function as you wo
 
 Do you offer commercial support?
 --------------------------------
-Not officially yet, but if you have a need, please do not hesitate to [contact us](mailto:contact at bytedeco.org).
+Yes, we have started to offer services through [xs:code](https://xscode.com/), and you can see our offerings from [organizations/bytedeco](https://xscode.com/organizations/bytedeco), but please do not hesitate to [contact us](mailto:contact at bytedeco.org) directly for any inquiries.
 
