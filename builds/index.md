@@ -6,7 +6,7 @@ title: Builds
 Builds
 ======
 
-We now have reliable automated builds using [Travis CI](https://www.travis-ci.org/) (to cover all Android, iOS, Linux, and Mac OS X builds) and [AppVeyor](https://www.appveyor.com/) (providing Windows builds). Thanks to both initiatives for providing such a great service to open source projects! Every pull request is built for all targets, and each commit generates a new snapshot build.
+We now have reliable automated builds using [Travis CI](https://www.travis-ci.org/) (to cover testing of JavaCPP and JavaCV on ARM, POWER, and x86 architectures for all platforms) and [GitHub Actions](https://github.com/features/actions) (providing Android, iOS, Linux, Mac OS X, and Windows builds for the JavaCPP Presets). Thanks to both initiatives for providing such a great service to open source projects! Every pull request is built for all targets, and each commit generates a new snapshot build.
 
 Using Snapshot Builds
 ---------------------
@@ -90,13 +90,12 @@ Current Build Status
 
 Builds information and history is available on
 
- * Travis CI for Android, iOS, Linux, and Mac OS X at
+ * Travis CI for JavaCPP, JavaCV, Gradle JavaCPP, SBT-JavaCPP, and SBT-JavaCV at
    * [bytedeco/javacpp](https://travis-ci.org/bytedeco/javacpp),
-   * [bytedeco/javacpp-presets](https://travis-ci.org/bytedeco/javacpp-presets),
    * [bytedeco/javacv](https://travis-ci.org/bytedeco/javacv),
    * [bytedeco/gradle-javacpp](https://travis-ci.org/bytedeco/gradle-javacpp),
    * [bytedeco/sbt-javacpp](https://travis-ci.org/bytedeco/sbt-javacpp),
    * [bytedeco/sbt-javacv](https://travis-ci.org/bytedeco/sbt-javacv), and on
- * AppVeyor for Windows at
-   * [bytedeco/javacpp-presets](https://ci.appveyor.com/project/Bytedeco/javacpp-presets).
+ * GitHub Actions for the JavaCPP Presets at
+   * [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets/actions).
 
