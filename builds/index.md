@@ -21,12 +21,12 @@ Taking the [sample usage for JavaCV](https://github.com/bytedeco/javacv#sample-u
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.bytedeco.javacv</groupId>
     <artifactId>demo</artifactId>
-    <version>1.5.6-SNAPSHOT</version>
+    <version>1.5.7-SNAPSHOT</version>
     <dependencies>
         <dependency>
             <groupId>org.bytedeco</groupId>
             <artifactId>javacv-platform</artifactId>
-            <version>1.5.6-SNAPSHOT</version>
+            <version>1.5.7-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -59,7 +59,7 @@ repositories {
 }
 
 dependencies {
-    api 'org.bytedeco:javacv-platform:1.5.6-SNAPSHOT'
+    api 'org.bytedeco:javacv-platform:1.5.7-SNAPSHOT'
 }
 
 // ...
@@ -72,7 +72,7 @@ We can do similarly for sbt in `build.sbt`, as documented at [sbt - Resolvers](h
 ```scala
 resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
 
-libraryDependencies += "org.bytedeco" % "javacv-platform" % "1.5.6-SNAPSHOT"
+libraryDependencies += "org.bytedeco" % "javacv-platform" % "1.5.7-SNAPSHOT"
 
 // ...
 ```
@@ -90,12 +90,18 @@ Current Build Status
 
 Builds information and history is available on
 
- * Travis CI for JavaCPP, JavaCV, Gradle JavaCPP, SBT-JavaCPP, and SBT-JavaCV at
+ * Travis CI at
    * [bytedeco/javacpp](https://travis-ci.org/bytedeco/javacpp),
+   * [bytedeco/javacpp-presets](https://travis-ci.org/bytedeco/javacpp-presets),
    * [bytedeco/javacv](https://travis-ci.org/bytedeco/javacv),
    * [bytedeco/gradle-javacpp](https://travis-ci.org/bytedeco/gradle-javacpp),
    * [bytedeco/sbt-javacpp](https://travis-ci.org/bytedeco/sbt-javacpp),
    * [bytedeco/sbt-javacv](https://travis-ci.org/bytedeco/sbt-javacv), and on
- * GitHub Actions for the JavaCPP Presets at
-   * [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets/actions).
+ * GitHub Actions at
+   * [bytedeco/javacpp](https://github.com/bytedeco/javacpp/actions),
+   * [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets/actions),
+   * [bytedeco/javacv](https://github.com/bytedeco/javacv/actions),
+   * [bytedeco/gradle-javacpp](https://github.com/bytedeco/gradle-javacpp/actions),
+   * [bytedeco/sbt-javacpp](https://github.com/bytedeco/sbt-javacpp/actions),
+   * [bytedeco/sbt-javacv](https://github.com/bytedeco/sbt-javacv/actions).
 
