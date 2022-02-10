@@ -18,357 +18,367 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>javacpp-platform</artifactId>
-        <version>1.5.6</version>
+        <version>1.5.7</version>
     </dependency>
 
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>opencv-platform</artifactId>
-        <version>4.5.3-1.5.6</version>
+        <version>4.5.5-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>ffmpeg-platform</artifactId>
-        <version>4.4-1.5.6</version>
+        <version>5.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>flycapture-platform</artifactId>
-        <version>2.13.3.31-1.5.6</version>
+        <version>2.13.3.31-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>spinnaker-platform</artifactId>
-        <version>2.4.0.143-1.5.6</version>
+        <version>2.4.0.143-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>libdc1394-platform</artifactId>
-        <version>2.2.6-1.5.6</version>
+        <version>2.2.6-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>libfreenect-platform</artifactId>
-        <version>0.5.7-1.5.6</version>
+        <version>0.5.7-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>libfreenect2-platform</artifactId>
-        <version>0.2.0-1.5.6</version>
+        <version>0.2.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>librealsense-platform</artifactId>
-        <version>1.12.4-1.5.6</version>
+        <version>1.12.4-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>librealsense2-platform</artifactId>
-        <version>2.44.0-1.5.6</version>
+        <version>2.50.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>videoinput-platform</artifactId>
-        <version>0.200-1.5.6</version>
+        <version>0.200-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>artoolkitplus-platform</artifactId>
-        <version>2.3.1-1.5.6</version>
+        <version>2.3.1-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>chilitags-platform</artifactId>
-        <version>master-1.5.6</version>
+        <version>master-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>flandmark-platform</artifactId>
-        <version>1.07-1.5.6</version>
+        <version>1.07-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>arrow-platform</artifactId>
-        <version>4.0.1-1.5.6</version>
+        <version>6.0.1-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>hdf5-platform</artifactId>
-        <version>1.12.1-1.5.6</version>
+        <version>1.12.1-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>hyperscan-platform</artifactId>
-        <version>5.4.0-1.5.6</version>
+        <version>5.4.0-1.5.7</version>
+    </dependency>
+    <dependency>
+        <groupId>org.bytedeco</groupId>
+        <artifactId>lz4-platform</artifactId>
+        <version>1.9.3-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>mkl-platform</artifactId>
-        <version>2021.3-1.5.6</version>
+        <version>2022.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>mkl-dnn-platform</artifactId>
-        <version>0.21.5-1.5.6</version>
+        <version>0.21.5-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>dnnl-platform</artifactId>
-        <version>2.3-1.5.6</version>
+        <version>2.5.2-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>openblas-platform</artifactId>
-        <version>0.3.17-1.5.6</version>
+        <version>0.3.19-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>arpack-ng-platform</artifactId>
-        <version>3.8.0-1.5.6</version>
+        <version>3.8.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>cminpack-platform</artifactId>
-        <version>1.3.8-1.5.6</version>
+        <version>1.3.8-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>fftw-platform</artifactId>
-        <version>3.3.9-1.5.6</version>
+        <version>3.3.10-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>gsl-platform</artifactId>
-        <version>2.7-1.5.6</version>
+        <version>2.7-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>cpython-platform</artifactId>
-        <version>3.9.6-1.5.6</version>
+        <version>3.10.2-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>numpy-platform</artifactId>
-        <version>1.21.1-1.5.6</version>
+        <version>1.22.2-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>scipy-platform</artifactId>
-        <version>1.7.0-1.5.6</version>
+        <version>1.8.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>gym-platform</artifactId>
-        <version>0.18.3-1.5.6</version>
+        <version>0.21.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>llvm-platform</artifactId>
-        <version>12.0.1-1.5.6</version>
+        <version>13.0.1-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>libffi-platform</artifactId>
-        <version>3.4.2-1.5.6</version>
+        <version>3.4.2-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>libpostal-platform</artifactId>
-        <version>1.1-alpha-1.5.6</version>
+        <version>1.1-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>leptonica-platform</artifactId>
-        <version>1.81.1-1.5.6</version>
+        <version>1.82.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tesseract-platform</artifactId>
-        <version>4.1.1-1.5.6</version>
+        <version>5.0.1-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>caffe-platform</artifactId>
-        <version>1.0-1.5.6</version>
+        <version>1.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>openpose-platform</artifactId>
-        <version>1.7.0-1.5.6</version>
+        <version>1.7.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>cuda-platform</artifactId>
-        <version>11.4-8.2-1.5.6</version>
+        <version>11.6-8.3-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>nvcodec-platform</artifactId>
-        <version>11.1.5-${project.parent.version}</version>
+        <version>11.1.5-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>opencl-platform</artifactId>
-        <version>3.0-1.5.6</version>
+        <version>3.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>mxnet-platform</artifactId>
-        <version>1.8.0-1.5.6</version>
+        <version>1.9.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>pytorch-platform</artifactId>
-        <version>1.9.0-1.5.6</version>
+        <version>1.10.2-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tensorflow-platform</artifactId>
-        <version>1.15.5-1.5.6</version>
+        <version>1.15.5-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tensorflow-lite-platform</artifactId>
-        <version>2.5.0-1.5.6</version>
+        <version>2.8.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tensorrt-platform</artifactId>
-        <version>8.0-1.5.6</version>
+        <version>8.2-1.5.7</version>
+    </dependency>
+    <dependency>
+        <groupId>org.bytedeco</groupId>
+        <artifactId>tritonserver-platform</artifactId>
+        <version>2.18-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>ale-platform</artifactId>
-        <version>0.6.1-1.5.6</version>
+        <version>0.7.3-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>depthai-platform</artifactId>
-        <version>2.8.0-1.5.6</version>
+        <version>2.14.1-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>onnx-platform</artifactId>
-        <version>1.9.0-1.5.6</version>
+        <version>1.10.2-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>ngraph-platform</artifactId>
-        <version>0.26.0-1.5.6</version>
+        <version>0.26.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>onnxruntime-platform</artifactId>
-        <version>1.8.1-1.5.6</version>
+        <version>1.10.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tvm-platform</artifactId>
-        <version>0.7.0-1.5.6</version>
+        <version>0.8.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>liquidfun-platform</artifactId>
-        <version>master-1.5.6</version>
+        <version>master-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>qt-platform</artifactId>
-        <version>5.15.2-1.5.6</version>
+        <version>5.15.2-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>skia-platform</artifactId>
-        <version>2.80.3-1.5.6</version>
+        <version>2.80.3-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>cpu_features-platform</artifactId>
-        <version>0.6.0-1.5.6</version>
+        <version>0.6.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>modsecurity-platform</artifactId>
-        <version>3.0.5-1.5.6</version>
+        <version>3.0.6-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>systems-platform</artifactId>
-        <version>1.5.6</version>
+        <version>1.5.7</version>
     </dependency>
 
     <!-- Additional dependencies required to use CUDA, cuDNN, NCCL, and TensorRT -->
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>opencv-platform-gpu</artifactId>
-        <version>4.5.3-1.5.6</version>
+        <version>4.5.5-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>caffe-platform-gpu</artifactId>
-        <version>1.0-1.5.6</version>
+        <version>1.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>mxnet-platform-gpu</artifactId>
-        <version>1.8.0-1.5.6</version>
+        <version>1.9.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>pytorch-platform-gpu</artifactId>
-        <version>1.9.0-1.5.6</version>
+        <version>1.10.2-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tensorflow-platform-gpu</artifactId>
-        <version>1.15.5-1.5.6</version>
+        <version>1.15.5-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>onnxruntime-platform-gpu</artifactId>
-        <version>1.8.1-1.5.6</version>
+        <version>1.10.0-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tvm-platform-gpu</artifactId>
-        <version>0.7.0-1.5.6</version>
+        <version>0.8.0-1.5.7</version>
     </dependency>
 
     <!-- Optional dependencies to load Python-enabled builds -->
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tensorflow-platform-python</artifactId>
-        <version>1.15.5-1.5.6</version>
+        <version>1.15.5-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tensorflow-platform-python-gpu</artifactId>
-        <version>1.15.5-1.5.6</version>
+        <version>1.15.5-1.5.7</version>
     </dependency>
 
     <!-- Additional dependencies to use bundled CUDA, cuDNN, NCCL, and TensorRT -->
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>cuda-platform-redist</artifactId>
-        <version>11.4-8.2-1.5.6</version>
+        <version>11.6-8.3-1.5.7</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tensorrt-platform-redist</artifactId>
-        <version>8.0-1.5.6</version>
+        <version>8.2-1.5.7</version>
     </dependency>
 
     <!-- Additional dependencies to use bundled full version of MKL -->
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>mkl-platform-redist</artifactId>
-        <version>2021.3-1.5.6</version>
+        <version>2022.0-1.5.7</version>
     </dependency>
 
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>javacv-platform</artifactId>
-        <version>1.5.6</version>
+        <version>1.5.7</version>
     </dependency>
 ```
 
