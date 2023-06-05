@@ -18,63 +18,63 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>javacpp-platform</artifactId>
-        <version>1.5.8</version>
+        <version>1.5.9</version>
     </dependency>
 
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>opencv-platform</artifactId>
-        <version>4.6.0-1.5.8</version>
+        <version>4.7.0-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>ffmpeg-platform</artifactId>
-        <version>5.1.2-1.5.8</version>
+        <version>6.0-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>flycapture-platform</artifactId>
-        <version>2.13.3.31-1.5.8</version>
+        <version>2.13.3.31-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>spinnaker-platform</artifactId>
-        <version>2.4.0.143-1.5.8</version>
+        <version>3.0.0.118-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>libdc1394-platform</artifactId>
-        <version>2.2.6-1.5.8</version>
+        <version>2.2.6-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>libfreenect-platform</artifactId>
-        <version>0.5.7-1.5.8</version>
+        <version>0.5.7-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>libfreenect2-platform</artifactId>
-        <version>0.2.0-1.5.8</version>
+        <version>0.2.0-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>librealsense-platform</artifactId>
-        <version>1.12.4-1.5.8</version>
+        <version>1.12.4-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>librealsense2-platform</artifactId>
-        <version>2.50.0-1.5.8</version>
+        <version>2.53.1-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>videoinput-platform</artifactId>
-        <version>0.200-1.5.8</version>
+        <version>0.200-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>artoolkitplus-platform</artifactId>
-        <version>2.3.1-1.5.8</version>
+        <version>2.3.1-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
@@ -94,12 +94,12 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>hdf5-platform</artifactId>
-        <version>1.12.2-1.5.8</version>
+        <version>1.14.1-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>hyperscan-platform</artifactId>
-        <version>5.4.0-1.5.8</version>
+        <version>5.4.2-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
@@ -109,7 +109,7 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>mkl-platform</artifactId>
-        <version>2022.2-1.5.8</version>
+        <version>2023.1-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
@@ -119,47 +119,47 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>dnnl-platform</artifactId>
-        <version>2.7.1-1.5.8</version>
+        <version>3.1-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>openblas-platform</artifactId>
-        <version>0.3.21-1.5.8</version>
+        <version>0.3.23-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>arpack-ng-platform</artifactId>
-        <version>3.8.0-1.5.8</version>
+        <version>3.9.0-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>cminpack-platform</artifactId>
-        <version>1.3.8-1.5.8</version>
+        <version>1.3.8-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>fftw-platform</artifactId>
-        <version>3.3.10-1.5.8</version>
+        <version>3.3.10-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>gsl-platform</artifactId>
-        <version>2.7-1.5.8</version>
+        <version>2.7-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>cpython-platform</artifactId>
-        <version>3.10.8-1.5.8</version>
+        <version>3.11.3-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>numpy-platform</artifactId>
-        <version>1.23.4-1.5.8</version>
+        <version>1.24.3-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>scipy-platform</artifactId>
-        <version>1.9.3-1.5.8</version>
+        <version>1.10.1-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
@@ -169,12 +169,12 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>llvm-platform</artifactId>
-        <version>15.0.3-1.5.8</version>
+        <version>16.0.4-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>libffi-platform</artifactId>
-        <version>3.4.4-1.5.8</version>
+        <version>3.4.4-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
@@ -183,13 +183,18 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
+        <artifactId>libraw-platform</artifactId>
+        <version>0.21.1-1.5.9</version>
+    </dependency>
+    <dependency>
+        <groupId>org.bytedeco</groupId>
         <artifactId>leptonica-platform</artifactId>
-        <version>1.82.0-1.5.8</version>
+        <version>1.83.0-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tesseract-platform</artifactId>
-        <version>5.2.0-1.5.8</version>
+        <version>5.3.1-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
@@ -204,17 +209,17 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>cuda-platform</artifactId>
-        <version>11.8-8.6-1.5.8</version>
+        <version>12.1-8.9-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>nvcodec-platform</artifactId>
-        <version>11.1.5-1.5.8</version>
+        <version>12.1.14-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>opencl-platform</artifactId>
-        <version>3.0-1.5.8</version>
+        <version>3.0-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
@@ -224,7 +229,7 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>pytorch-platform</artifactId>
-        <version>1.12.1-1.5.8</version>
+        <version>2.0.1-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
@@ -234,17 +239,17 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tensorflow-lite-platform</artifactId>
-        <version>2.10.0-1.5.8</version>
+        <version>2.12.0-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tensorrt-platform</artifactId>
-        <version>8.4-1.5.8</version>
+        <version>8.6-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tritonserver-platform</artifactId>
-        <version>2.26-1.5.8</version>
+        <version>2.33-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
@@ -254,12 +259,12 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>depthai-platform</artifactId>
-        <version>2.18.0-1.5.8</version>
+        <version>2.21.2-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>onnx-platform</artifactId>
-        <version>1.12.0-1.5.8</version>
+        <version>1.14.0-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
@@ -269,17 +274,17 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>onnxruntime-platform</artifactId>
-        <version>1.13.1-1.5.8</version>
+        <version>1.15.0-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tvm-platform</artifactId>
-        <version>0.10.0-1.5.8</version>
+        <version>0.12.0-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>bullet-platform</artifactId>
-        <version>3.24-1.5.8</version>
+        <version>3.25-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
@@ -309,14 +314,14 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>systems-platform</artifactId>
-        <version>1.5.8</version>
+        <version>1.5.9</version>
     </dependency>
 
     <!-- Additional dependencies required to use CUDA, cuDNN, NCCL, and TensorRT -->
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>opencv-platform-gpu</artifactId>
-        <version>4.6.0-1.5.8</version>
+        <version>4.7.0-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
@@ -331,7 +336,7 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>pytorch-platform-gpu</artifactId>
-        <version>1.12.1-1.5.8</version>
+        <version>2.0.1-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
@@ -341,12 +346,12 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>onnxruntime-platform-gpu</artifactId>
-        <version>1.13.1-1.5.8</version>
+        <version>1.15.0-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tvm-platform-gpu</artifactId>
-        <version>0.10.0-1.5.8</version>
+        <version>0.12.0-1.5.9</version>
     </dependency>
 
     <!-- Optional dependencies to load Python-enabled builds -->
@@ -365,25 +370,25 @@ Here is a sample list of dependencies that you can use as base for your own `pom
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>cuda-platform-redist</artifactId>
-        <version>11.8-8.6-1.5.8</version>
+        <version>12.1-8.9-1.5.9</version>
     </dependency>
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>tensorrt-platform-redist</artifactId>
-        <version>8.4-1.5.8</version>
+        <version>8.6-1.5.9</version>
     </dependency>
 
     <!-- Additional dependencies to use bundled full version of MKL -->
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>mkl-platform-redist</artifactId>
-        <version>2022.2-1.5.8</version>
+        <version>2023.1-1.5.9</version>
     </dependency>
 
     <dependency>
         <groupId>org.bytedeco</groupId>
         <artifactId>javacv-platform</artifactId>
-        <version>1.5.8</version>
+        <version>1.5.9</version>
     </dependency>
 ```
 
