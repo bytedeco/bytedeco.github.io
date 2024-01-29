@@ -21,12 +21,12 @@ Taking the [sample usage for JavaCV](https://github.com/bytedeco/javacv#sample-u
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.bytedeco.javacv</groupId>
     <artifactId>demo</artifactId>
-    <version>1.5.10-SNAPSHOT</version>
+    <version>1.5.11-SNAPSHOT</version>
     <dependencies>
         <dependency>
             <groupId>org.bytedeco</groupId>
             <artifactId>javacv-platform</artifactId>
-            <version>1.5.10-SNAPSHOT</version>
+            <version>1.5.11-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -59,7 +59,7 @@ repositories {
 }
 
 dependencies {
-    api 'org.bytedeco:javacv-platform:1.5.10-SNAPSHOT'
+    api 'org.bytedeco:javacv-platform:1.5.11-SNAPSHOT'
 }
 
 // ...
@@ -72,7 +72,7 @@ We can do similarly for sbt in `build.sbt`, as documented at [sbt - Resolvers](h
 ```scala
 resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
 
-libraryDependencies += "org.bytedeco" % "javacv-platform" % "1.5.10-SNAPSHOT"
+libraryDependencies += "org.bytedeco" % "javacv-platform" % "1.5.11-SNAPSHOT"
 
 // ...
 ```
